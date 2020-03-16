@@ -30,4 +30,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### Eleventy ###
+_site/
+
 # End of https://www.gitignore.io/api/macos
