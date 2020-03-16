@@ -40,7 +40,10 @@
   <main>
     <ul>
       {% for item in items %}
-      <li><a href="{{ item.url }}">{{ item.title }} &rarr;</a></li>
+      <li>
+        <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+        {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+      </li>
       {% endfor %}
     </ul>
     <a href="mailto:spencer@penguinmail.com?subject=Chicago Service Relief" class="button">+ Suggest an addition</a>
