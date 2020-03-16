@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-us">
+<html lang="en-US">
 <head>
   <meta charset="utf-8">
 
@@ -10,7 +10,7 @@
   <!-- Define viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Link favicon and Apple icon -->
+  <!-- Link favicon -->
   <link id="favicon" rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- Import Google Fonts -->
@@ -39,12 +39,9 @@
   </header>
   <main>
     <ul>
-      <li><a href="https://www.gofundme.com/f/6p2py6-hideout-virtual-tavern">Hideout Inn &rarr;</a></li>
-      <li><a href="https://www.gofundme.com/f/sleeping-village-workers-fund">Sleeping Village &rarr;</a></li>
-      <li><a href="https://www.gofundme.com/f/the-hungry-brain">The Hungry Brain &rarr;</a></li>
-      <li><a href="https://www.gofundme.com/f/help-for-reeds">Reeds Local &rarr;</a></li>
-      <li><a href="https://www.gofundme.com/f/bottle-bite-staff-relief">Empty Bottle &rarr;</a></li>
-      <li><a href="https://www.gofundme.com/f/wjdxf-tonic-room-tip-jar">Tonic Room &rarr;</a></li>
+      {% for item in items %}
+      <li><a href="{{ item.url }}">{{ item.title }} &rarr;</a></li>
+      {% endfor %}
     </ul>
     <a href="mailto:spencer@penguinmail.com?subject=Chicago Service Relief" class="button">+ Suggest an addition</a>
   </main>
