@@ -39,7 +39,7 @@
   </header>
   <main>
     <ul>
-      {% for item in items %}
+      {% for item in establishments %}
       <li>
         <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
         {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
