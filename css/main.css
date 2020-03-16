@@ -121,9 +121,16 @@ ul {
   list-style-type: none;
 }
 
+li {
+  margin-left: 1.1em;
+  position: relative;
+  margin-bottom: 0.4em;
+}
+
 li:before {
   content: "\2736";
-  padding-right: 0.4em;
+  position: absolute;
+  left: -1.1em;
   color: var(--chicago-red);
 }
 
@@ -164,6 +171,12 @@ footer {
   border-radius: 2em;
   border: 0.15em solid hsl(0, 0%, 80%);
   font-size: 0.9em;
+}
+
+.item-note {
+  font-size: 0.8em;
+  display: block;
+  color: hsl(0, 0%, 50%);
 }
 
 /* ==========================================================================
