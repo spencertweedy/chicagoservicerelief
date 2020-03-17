@@ -1,98 +1,63 @@
 ---
+layout: default
 ---
-<!doctype html>
-<html lang="en-US">
-<head>
-  <meta charset="utf-8">
+<header>
+  <h1><span>Chicago</span> <br><span>Service</span> <br><span>Relief</span></h1>
+  <p>A directory of fundraisers for Chicago bars, venues, and restaurants that can use our help to support their staff during the state-mandated shutdown. A work-in-progress.</p>
+  <nav>
+    Jump to:
+    <a href="#bars-and-venues">bars &amp; venues</a>,
+    <a href="#restaurants">restaurants</a>,
+    <a href="#stores-and-others">stores &amp; others</a>.<br>
+    See also: <a href="#">resources for artists and gig economy workers</a>.
+  </nav>
+  <a href="#suggestions" class="button">+ Suggest an addition</a>
+</header>
+<main>
+  {% assign items = site.data.establishments | sort: "title" %}
 
-  <!-- Define page title and description -->
-  <title>{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <h2 id="bars-and-venues">Bars & venues</h2>
+  <ul>
+    {% for item in items %}
+      {% if item.type contains 'bar' or item.type contains 'venue' or item.type contains 'theater' %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 
-  <!-- Define viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <h2 id="restaurants">Restaurants</h2>
+  <ul>
+    {% for item in items %}
+      {% if item.type contains 'restaurant' %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 
-  <!-- Link favicon -->
-  <link id="favicon" rel="icon" href="favicon.ico" type="image/x-icon">
+  <h2 id="stores-and-others">Stores &amp; others</h2>
+  <ul>
+    {% for item in items %}
+      {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 
-  <!-- Import Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
-
-  <!-- Import stylesheets -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <!-- Social media tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ site.title }}">
-  <meta name="twitter:description" content="{{ site.description }}">
-  <meta name="twitter:image" content="{{ site.url }}/social.png">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:image" content="{{ site.url }}/social.png">
-</head>
-
-<body>
-  <header>
-    <h1><span>Chicago</span> <br><span>Service</span> <br><span>Relief</span></h1>
-    <p>A directory of fundraisers for Chicago bars, venues, and restaurants that can use our help to support their staff during the state-mandated shutdown. A work-in-progress.</p>
-    <nav>
-      Jump to:
-      <a href="#bars-and-venues">bars &amp; venues</a>,
-      <a href="#restaurants">restaurants</a>,
-      <a href="#stores-and-others">stores &amp; others</a>.
-    </nav>
-    <a href="#suggestions" class="button">+ Suggest an addition</a>
-  </header>
-  <main>
-    {% assign items = site.data.establishments | sort: "title" %}
-
-    <h2 id="bars-and-venues">Bars & venues</h2>
-    <ul>
-      {% for item in items %}
-        {% if item.type contains 'bar' or item.type contains 'venue' or item.type contains 'theater' %}
-          <li>
-            <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
-            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-
-    <h2 id="restaurants">Restaurants</h2>
-    <ul>
-      {% for item in items %}
-        {% if item.type contains 'restaurant' %}
-          <li>
-            <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
-            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-
-    <h2 id="stores-and-others">Stores &amp; others</h2>
-    <ul>
-      {% for item in items %}
-        {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' %}
-          <li>
-            <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
-            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-
-    <section id="suggestions">
-      <hr>
-      <h2>Suggestions</h2>
-      <p>To suggest an establishment that’s not already on the list, please <a href="mailto:{{ site.email }}?subject=Chicago Service Relief">email its fundraising page link to me</a>.</p>
-    </section>
-  </main>
-  <footer>
-    <p>Project by <a href="https://spencertweedy.com/">Spencer Tweedy</a></p>
-  </footer>
-</body>
-</html>
+  <section id="suggestions">
+    <hr>
+    <h2>Suggestions</h2>
+    <p>To suggest an establishment that’s not already on the list, please <a href="mailto:{{ site.email }}?subject=Chicago Service Relief">email its fundraising page link to me</a>.</p>
+  </section>
+</main>
+<footer>
+  <p>Project by <a href="https://spencertweedy.com/">Spencer Tweedy</a></p>
+</footer>
