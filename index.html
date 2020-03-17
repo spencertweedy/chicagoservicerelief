@@ -9,14 +9,14 @@ layout: default
     <a href="#bars-and-venues">bars &amp; venues</a>,
     <a href="#restaurants">restaurants</a>,
     <a href="#stores-and-others">stores &amp; others</a>.<br>
-    See also: <a href="#">resources for artists and gig economy workers</a>.
+    See also: <a href="#resources">resources for artists and gig economy workers</a>.
   </nav>
   <a href="#suggestions" class="button">+ Suggest an addition</a>
 </header>
 <main>
   {% assign items = site.data.establishments | sort: "title" %}
 
-  <h2 id="bars-and-venues">Bars & venues</h2>
+  <h2 id="bars-and-venues">Support bar &amp; venue staff</h2>
   <ul>
     {% for item in items %}
       {% if item.type contains 'bar' or item.type contains 'venue' or item.type contains 'theater' %}
@@ -28,7 +28,7 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h2 id="restaurants">Restaurants</h2>
+  <h2 id="restaurants">Support restaurant staff</h2>
   <ul>
     {% for item in items %}
       {% if item.type contains 'restaurant' %}
@@ -40,7 +40,7 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h2 id="stores-and-others">Stores &amp; others</h2>
+  <h2 id="stores-and-others">Support stores &amp; others</h2>
   <ul>
     {% for item in items %}
       {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' %}
@@ -51,6 +51,12 @@ layout: default
       {% endif %}
     {% endfor %}
   </ul>
+
+  <section id="resources">
+    <hr>
+    <h2>Resources</h2>
+    <p></p>
+  </section>
 
   <section id="suggestions">
     <hr>
