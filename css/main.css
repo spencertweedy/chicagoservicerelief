@@ -122,6 +122,10 @@ a {
   color: inherit;
 }
 
+nav {
+  margin: 1em 0;
+}
+
 ul {
   padding-left: 0;
   list-style-type: none;
