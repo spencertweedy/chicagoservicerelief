@@ -1,153 +1,153 @@
 - title: Hideout Inn
   url: https://www.gofundme.com/f/6p2py6-hideout-virtual-tavern
-  tags: [bar, venue]
+  type: venue
 - title: Sleeping Village
   url: https://www.gofundme.com/f/sleeping-village-workers-fund
-  tags: [bar, venue]
+  type: venue
 - title: Hungry Brain
   url: https://www.gofundme.com/f/the-hungry-brain
-  tags: [bar, venue]
+  type: bar
 - title: Reeds Local
   url: https://www.gofundme.com/f/help-for-reeds
-  tags: [bar, venue]
+  type: bar
 - title: Empty Bottle
   url: https://www.gofundme.com/f/bottle-bite-staff-relief
-  tags: [bar, venue]
+  type: venue
 - title: Tonic Room
   url: https://www.gofundme.com/f/wjdxf-tonic-room-tip-jar
-  tags: [bar, venue]
+  type: bar
 - title: Cole’s
   url: https://www.gofundme.com/f/cole039s-bar-employee-rel-fund
-  tags: [bar, venue]
+  type: bar
 - title: Cafe Mustache
   url: https://www.gofundme.com/f/help-the-cafe-mustache-staff
-  tags: [bar, venue]
+  type: bar
 - title: Whistler
   url: https://www.gofundme.com/f/the-whistler-empoyee-fund
-  tags: [bar, venue]
+  type: bar
 - title: Metro, Smart Bar, and GMan Tavern
   url: https://www.gofundme.com/f/gavakx-helping-support-metrosmartbargman-tavern-staff
-  tags: [bar, venue]
+  type: venue
 - title: Beermiscuous
   url: https://www.gofundme.com/f/beermiscuous-virtual-beer-cafe
-  tags: [bar]
+  type: bar
 - title: Burlington
   url: https://www.gofundme.com/f/burlington-bar-workers-relief-fund
-  tags: [bar, venue]
+  type: bar
 - title: Reno
   url: https://www.gofundme.com/f/reno-911
-  tags: [restaurant]
+  type: restaurant
 - title: Rock Island Public House
   url: https://www.gofundme.com/f/rock-island-public-house-tactical-defense-fund
-  tags: [bar]
+  type: bar
 - title: iO Theater
   url: https://www.gofundme.com/f/support-the-io-theater-staff
-  tags: [bar, venue]
+  type: venue
 - title: Live Wire
   url: https://www.gofundme.com/f/help-live-wire-during-industry-shutdown
-  tags: [bar, venue]
+  type: venue
 - title: Rainbo Club
   url: https://www.gofundme.com/f/rainbo-club
-  tags: [bar, venue]
+  type: bar
 - title: Laurie’s Planet of Sound
   url: https://www.paypal.com/paypalme2/lauriesplanetofsound
-  tags: [store]
+  type: store
 - title: Scofflaw Group
   url: https://www.gofundme.com/f/scofflaw-group-employee-fund
   note: Scofflaw, Slippery Slope, The Heavy Feather, The Moonlighter, and Outside
     Voices
-  tags: [bar]
+  type: bar
 - title: A Taste of Heaven
   url: https://www.gofundme.com/f/help-a-taste-of-heaven-servers
-  tags: [restaurant]
+  type: restaurant
 - title: Footman Hospitality
   url: https://www.gofundme.com/f/footman-hospitality-employee-relief-fund
   note: Bangers & Lace, Sparrow, Kite String Cantina, Bucktown Pub, Spilt Milk and
     Little Victories
-  tags: [bar]
+  type: bar
 - title: Royal Palms
   url: https://www.royalpalmschicago.com/for-our-team
-  tags: [bar]
+  type: other
 - title: Reggies
   url: https://www.gofundme.com/f/help-the-reggies-staff
-  tags: [bar, venue]
+  type: venue
 - title: Logan Arcade
   url: https://www.gofundme.com/f/logan-arcade-staff-relief-fund
-  tags: [bar]
+  type: other
 - title: Four Entertainment Group
   url: https://www.gofundme.com/f/4eg-bar-staff-relief-fund
   note: aliveOne, Estelle's, Easy Bar, The Owl and Remedy
-  tags: [bar]
+  type: bar
 - title: Will’s Northwoods Inn
   url: https://www.gofundme.com/f/1xfxe0r700
-  tags: [bar]
+  type: bar
 - title: Thalia Hall
   url: https://www.gofundme.com/f/thalia-duseks-employee-relief
   note: Thalia Hall, Dusek's, Tack Room, and Punch House
-  tags: [bar, venue]
+  type: venue
 - title: Simone’s
   url: https://www.gofundme.com/f/simone039s-tip-jar
-  tags: [bar]
+  type: bar
 - title: The Native
   url: https://www.gofundme.com/f/the-native039s-bartender-fund
-  tags: [bar]
+  type: bar
 - title: Volumes Bookstore
   url: https://mailchi.mp/volumesbooks/the-months-ahead-2626201
-  tags: [store]
+  type: store
 - title: Matilda/BabyATLAS
   url: https://www.gofundme.com/f/matildababyatlas-employee-relief/
-  tags: [bar]
+  type: bar
 - title: Maplewood
   url: https://www.gofundme.com/f/maplewood-virtual-lounge/
-  tags: [bar]
+  type: bar
 - title: Beat Kitchen
   url: https://www.gofundme.com/f/beat-kitchen-covid19-closure-employee-relief-fund
-  tags: [bar, venue]
+  type: venue
 - title: Barrelman
   url: https://www.gofundme.com/f/barrelman-two-of-our-favorite-humans
-  tags: [bar]
+  type: bar
 - title: Subterranean
   url: https://www.gofundme.com/f/subterrean-covid19-closure-employee-relief-fund
-  tags: [bar, venue]
+  type: venue
 - title: Promontory
   url: https://www.gofundme.com/f/the-promontory-employee-fund
-  tags: [bar, venue]
+  type: venue
 - title: Montrose Saloon
   url: https://www.gofundme.com/f/montrose-saloon-emergency-staff-relief-fund
-  tags: [bar]
+  type: bar
 - title: Skylark
   url: https://www.gofundme.com/f/skylark-chicago
-  tags: [bar, restaurant]
+  type: restaurant
 - title: Dorian’s
   url: https://www.gofundme.com/f/doriansemployeefund
-  tags: [bar]
+  type: bar
 - title: Green Eye
   url: https://www.gofundme.com/f/green-eye-loungelemmings-bar-staff-relief-fund
-  tags: [bar]
+  type: bar
 - title: Lizards Liquid Lounge
   url: https://www.gofundme.com/f/lizards-liquid-lounge-tip-jar
-  tags: [bar]
+  type: bar
 - title: Bokeh
   url: https://www.gofundme.com/f/bokeh-bar-amp-staff-fund
-  tags: [bar, restaurant]
+  type: restaurant
 - title: Madison Tavern
   url: https://www.gofundme.com/f/madison-tavern-employee-support-fund
-  tags: [bar]
+  type: bar
 - title: Old Irving Brewing
   url: https://www.gofundme.com/f/oib-hourly-staff
-  tags: [restaurant]
+  type: restaurant
 - title: Crown Liquors
   url: https://www.gofundme.com/f/crown-liquors-staff-needs-your-help
-  tags: [bar]
+  type: bar
 - title: High Dive
   url: https://www.gofundme.com/f/high-dive-staff-needs-your-help
-  tags: [bar]
+  type: bar
 - title: Dante’s Tavern
   url: https://www.gofundme.com/f/6wtqe-save-our-staff
-  tags: [bar]
+  type: bar
 - title: EZ Inn
   url: https://www.gofundme.com/f/ez-inn-bartender-relief-fund
-  tags: [bar]
+  type: bar
 - title: Yak-Zies
   url: https://www.gofundme.com/f/help-support-the-yakzies-wrigleyville-staff
-  tags: [restaurant]
+  type: restaurant
