@@ -43,7 +43,7 @@ layout: default
   <h2 id="stores-and-others">Support stores &amp; others</h2>
   <ul>
     {% for item in items %}
-      {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' %}
+      {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' and item.type != 'resource' %}
         <li>
           <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
           {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
@@ -55,7 +55,17 @@ layout: default
   <section id="resources">
     <hr>
     <h2>Resources</h2>
-    <p></p>
+    <p>If your livelihood is affected by COVID-19, you may want to use these resources:</p>
+    <ul>
+      {% for item in items %}
+        {% if item.type contains 'resource' %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
   </section>
 
   <section id="suggestions">
