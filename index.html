@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en-US">
 <head>
@@ -39,7 +41,8 @@
   </header>
   <main>
     <ul>
-      {% for item in establishments %}
+      {% assign items = site.data.establishments | sort: "title" %}
+      {% for item in items %}
       <li>
         <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
         {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
