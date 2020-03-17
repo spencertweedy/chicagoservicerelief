@@ -161,7 +161,7 @@
   url: https://www.gofundme.com/f/support-our-dog-walkers-during-coronavirus
   type: other
 - title: Chicago Symphony Orchestra (bartenders)
-  url: https://www.gofundme.com/f/virtual-tips-for-cso-concessions-bartender
+  url: https://www.gofundme.com/f/virtual-tips-for-cso-concessions-bartenders
   type: theater
 - title: Laugh Factory
   url: https://www.gofundme.com/f/laugh-factory-employee-relief-fund
@@ -208,3 +208,16 @@
 - title: The Continental
   url: https://www.gofundme.com/f/the-continental-bar-staff-relief-fund
   type: bar
+- title: Heisler Hospitality
+  url: https://www.gofundme.com/f/heisler-hospitality-employee-fund
+  note: Bad Hunter, Estereo, Lone Wolf, Pub Royale, Queen Mary & Revel Room
+  type: bar
+- title: BiXi
+  url: https://www.gofundme.com/f/bixi-staff-support-fund
+  type: restaurant
+- title: Annoyance Theatre
+  url: https://www.gofundme.com/f/annoyance-keep-our-doors-open-by-locking-us-in
+  type: theater
+- title: Pepper Canister
+  url: https://www.gofundme.com/f/virtual-tip-jar-for-the-pepper-canister
+  type: restaurant
