@@ -38,17 +38,52 @@
   <header>
     <h1><span>Chicago</span> <br><span>Service</span> <br><span>Relief</span></h1>
     <p>A directory of fundraisers for Chicago bars, venues, and restaurants that can use our help to support their staff during the state-mandated shutdown. A work-in-progress.</p>
+    <nav>
+      Jump to:
+      <a href="#bars-and-venues">bars &amp; venues</a>,
+      <a href="#restaurants">restaurants</a>,
+      <a href="#stores-and-others">stores &amp; others</a>.
+    </nav>
   </header>
   <main>
+    {% assign items = site.data.establishments | sort: "title" %}
+
+    <h2 id="bars-and-venues">Bars & venues</h2>
     <ul>
-      {% assign items = site.data.establishments | sort: "title" %}
       {% for item in items %}
-      <li>
-        <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
-        {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-      </li>
+        {% if item.type contains 'bar' or item.type contains 'venue' %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
+
+    <h2 id="restaurants">Restaurants</h2>
+    <ul>
+      {% for item in items %}
+        {% if item.type contains 'restaurant' %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <h2 id="stores-and-others">Stores &amp; others</h2>
+    <ul>
+      {% for item in items %}
+        {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
     <a href="mailto:spencer@penguinmail.com?subject=Chicago Service Relief" class="button">+ Suggest an addition</a>
   </main>
   <footer>
