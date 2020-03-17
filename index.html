@@ -6,8 +6,8 @@
   <meta charset="utf-8">
 
   <!-- Define page title and description -->
-  <title>Chicago Service Relief</title>
-  <meta name="description" content="A directory of fundraisers for Chicago bars, venues, and restaurants.">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
 
   <!-- Define viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,14 +24,14 @@
 
   <!-- Social media tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Chicago Service Relief">
-  <meta name="twitter:description" content="A directory of fundraisers for Chicago bars, venues, and restaurants.">
-  <meta name="twitter:image" content="https://chicagoservicerelief.com/social.png">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}/social.png">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://chicagoservicerelief.com/">
-  <meta property="og:title" content="Chicago Service Relief">
-  <meta property="og:description" content="A directory of fundraisers for Chicago bars, venues, and restaurants.">
-  <meta property="og:image" content="https://chicagoservicerelief.com/social.png">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.url }}/social.png">
 </head>
 
 <body>
@@ -44,6 +44,7 @@
       <a href="#restaurants">restaurants</a>,
       <a href="#stores-and-others">stores &amp; others</a>.
     </nav>
+    <a href="#suggestions" class="button">+ Suggest an addition</a>
   </header>
   <main>
     {% assign items = site.data.establishments | sort: "title" %}
@@ -84,7 +85,11 @@
       {% endfor %}
     </ul>
 
-    <a href="mailto:spencer@penguinmail.com?subject=Chicago Service Relief" class="button">+ Suggest an addition</a>
+    <section id="suggestions">
+      <hr>
+      <h2>Suggestions</h2>
+      <p>To suggest an establishment that’s not already on the list, please <a href="mailto:{{ site.email }}?subject=Chicago Service Relief">email its fundraising page link to me</a>.</p>
+    </section>
   </main>
   <footer>
     <p>Project by <a href="https://spencertweedy.com/">Spencer Tweedy</a></p>
