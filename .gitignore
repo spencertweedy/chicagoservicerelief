@@ -30,7 +30,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### Eleventy ###
-_site/
+### Jekyll ###
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 
 # End of https://www.gitignore.io/api/macos
