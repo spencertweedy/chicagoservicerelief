@@ -76,7 +76,7 @@
     <h2 id="stores-and-others">Stores &amp; others</h2>
     <ul>
       {% for item in items %}
-        {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' %}
+        {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' %}
           <li>
             <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
