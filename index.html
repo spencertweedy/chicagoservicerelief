@@ -52,7 +52,7 @@
     <h2 id="bars-and-venues">Bars & venues</h2>
     <ul>
       {% for item in items %}
-        {% if item.type contains 'bar' or item.type contains 'venue' %}
+        {% if item.type contains 'bar' or item.type contains 'venue' or item.type contains 'theater' %}
           <li>
             <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}

@@ -42,7 +42,7 @@
   type: bar
 - title: iO Theater
   url: https://www.gofundme.com/f/support-the-io-theater-staff
-  type: venue
+  type: theater
 - title: Live Wire
   url: https://www.gofundme.com/f/help-live-wire-during-industry-shutdown
   type: venue
@@ -151,3 +151,42 @@
 - title: Yak-Zies
   url: https://www.gofundme.com/f/help-support-the-yakzies-wrigleyville-staff
   type: restaurant
+- title: Bottom Lounge
+  url: https://www.gofundme.com/f/help-the-bottom-lounge-staff
+  type: bar
+- title: Dos Urban Cantina
+  url: https://www.gofundme.com/f/dos-tip-jar
+  type: restaurant
+- title: Hyde Park
+  url: https://www.gofundme.com/f/support-our-dog-walkers-during-coronavirus
+  type: other
+- title: Chicago Symphony Orchestra (bartenders)
+  url: https://www.gofundme.com/f/virtual-tips-for-cso-concessions-bartender
+  type: theater
+- title: Laugh Factory
+  url: https://www.gofundme.com/f/laugh-factory-employee-relief-fund
+  type: theater
+- title: Maria’s Community Bar
+  url: https://www.gofundme.com/f/maria039s-community-bar-and-kimski-tipjar
+  type: bar
+- title: Kimski
+  url: https://www.gofundme.com/f/maria039s-community-bar-and-kimski-tipjar
+  type: restaurant
+- title: Cobra Lounge
+  url: https://www.gofundme.com/f/cobra-staff-survival-fund
+  type: bar
+- title: Monk’s Pub
+  url: https://www.gofundme.com/f/monk039s-pub-virtual-tip-jar
+  type: bar
+- title: Lula Cafe
+  url: https://www.gofundme.com/f/lula-cafe-staff-relief-fund
+  type: restaurant
+- title: Martyrs
+  url: https://www.gofundme.com/f/support-for-martyrs039
+  type: venue
+- title: Jackalope Coffee & Tea House
+  url: https://www.gofundme.com/f/help-support-the-jackalope-staff
+  type: restaurant
+- title: Barbara&Barbara
+  url: https://www.gofundme.com/f/barbaraampbarbara-battles-corona-closings
+  type: other
