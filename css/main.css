@@ -113,6 +113,11 @@ h1 span:nth-of-type(3) {
   font-size: 1.19em;
 }
 
+h2 {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}
+
 a {
   color: inherit;
 }
@@ -120,6 +125,7 @@ a {
 ul {
   padding-left: 0;
   list-style-type: none;
+  margin: 0 0 1.4rem;
 }
 
 li {
