@@ -14,7 +14,7 @@ layout: default
   <a href="#suggestions" class="button">+ Suggest an addition</a>
 </header>
 <main>
-  {% assign items = site.data.establishments | sort: "title" %}
+  {% assign items = site.data.establishments | sort_natural: "title" %}
 
   <h2 id="bars-and-venues">Support bar &amp; venue staff</h2>
   <ul>
