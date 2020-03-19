@@ -208,9 +208,23 @@
 - title: The Continental
   url: https://www.gofundme.com/f/the-continental-bar-staff-relief-fund
   type: bar
-- title: Heisler Hospitality
+- title: Bad Hunter
   url: https://www.gofundme.com/f/heisler-hospitality-employee-fund
-  note: Bad Hunter, Estereo, Lone Wolf, Pub Royale, Queen Mary & Revel Room
+  type: bar
+- title: Estereo
+  url: https://www.gofundme.com/f/heisler-hospitality-employee-fund
+  type: bar
+- title: Lone Wolf
+  url: https://www.gofundme.com/f/heisler-hospitality-employee-fund
+  type: bar
+- title: Pub Royale
+  url: https://www.gofundme.com/f/heisler-hospitality-employee-fund
+  type: bar
+- title: Queen Mary
+  url: https://www.gofundme.com/f/heisler-hospitality-employee-fund
+  type: bar
+- title: Revel Room
+  url: https://www.gofundme.com/f/heisler-hospitality-employee-fund
   type: bar
 - title: BiXi
   url: https://www.gofundme.com/f/bixi-staff-support-fund
@@ -564,7 +578,13 @@
 - title: Moe’s Tavern
   url: https://www.gofundme.com/f/moe039s-tavern-covid19-employee-relief-fund
   type: bar
-- title: Vic Theatre, Riviera Theatre, & Park West
+- title: Vic Theatre
+  url: https://www.gofundme.com/f/vic-theatre-riviera-theatre-amp-park-west-fund
+  type: venue
+- title: Riviera Theatre
+  url: https://www.gofundme.com/f/vic-theatre-riviera-theatre-amp-park-west-fund
+  type: venue
+- title: Park West
   url: https://www.gofundme.com/f/vic-theatre-riviera-theatre-amp-park-west-fund
   type: venue
 - title: Sweet Pepper
@@ -649,4 +669,43 @@
   note: Acanto Restaurant, Beacon Tavern, Coda di Volpe, The Dawson, The Gage
 - title: Lonesome Rose
   url: https://www.gofundme.com/f/lonesome-rose-employee-fund
+  type: restaurant
+- title: Club Lucky
+  url: https://www.gofundme.com/f/help-support-your-club-lucky-family
+  type: restaurant
+- title: Lucky’s Sandwich Co.
+  url: https://www.gofundme.com/f/help-support-luckys-sandwich-co-staff
+  type: restaurant
+- title: Fairgrounds Oak Park
+  url: https://www.gofundme.com/f/support-fairgrounds-oak-park-staff
+  type: restaurant
+- title: Swill Inn
+  url: https://www.eventbrite.com/e/wangs-dranks-happy-hour-shin-dig-tickets-99989699884
+  type: restaurant
+- title: City Winery
+  url: https://www.gofundme.com/f/city-winery-employee-relief-fund
+  type: venue
+- title: Broken Barrel
+  url: https://www.gofundme.com/f/broken-barrel-staff-relief-fund
+  type: restaurant
+- title: mfk. restaurant
+  url: https://www.gofundme.com/f/mfk-amp-bar-biscay-staff-relief-fund
+  type: restaurant
+- title: Bar Biscay
+  url: https://www.gofundme.com/f/mfk-amp-bar-biscay-staff-relief-fund
+  type: restaurant
+- title: Recess
+  url: https://www.gofundme.com/f/recess-employee-relief-fund
+  type: restaurant
+- title: Dearborn, The
+  url: https://www.gofundme.com/f/the-dearborn-virtual-tip-jar
+  type: restaurant
+- title: Untitled Supper Club
+  url: https://www.gofundme.com/f/untitled-supper-club-employee-relief-fund
+  type: restaurant
+- title: Osteria Langhe
+  url: https://www.gofundme.com/f/osteria-langhe-employee-relief-fund
+  type: restaurant
+- title: ALTHEA
+  url: https://www.gofundme.com/f/althea-employee-relief-fund
   type: restaurant
