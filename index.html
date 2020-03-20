@@ -3,13 +3,13 @@ layout: default
 ---
 <header>
   <h1><span>Chicago</span> <br><span>Service</span> <br><span>Relief</span></h1>
-  <p>A directory of fundraisers for Chicago bars, venues, and restaurants that can use our help to support their staff during the state-mandated shutdown. A work-in-progress.</p>
+  <p>A directory of fundraisers for Chicago bars, venues, restaurants, salons, and other service-based businesses that can use our help to support their staff during the state-mandated shutdown. A work-in-progress.</p>
   <nav>
     Jump to:
     <a href="#bars-and-venues">bars &amp; venues</a>,
     <a href="#restaurants">restaurants</a>,
-    <a href="#stores-and-others">stores &amp; others</a>.<br>
-    See also: <a href="#resources">resources for artists and freelancers</a>.
+    <a href="#salons">stores &amp; others</a>.<br>
+    See also: <a href="#resources">resources for individuals and businesses</a>.
   </nav>
   <p><strong>Not sure where to start?</strong> Volunteers maintain <a href="https://docs.google.com/spreadsheets/d/1FfwL4ZC7omZ177rBI4WPJy_kqcMZoLgFjYg5Ek0_x98/edit?usp=sharing">this spreadsheet</a> that shows which fundraisers are furthest from their goals.</p>
   <a href="#suggestions" class="button">+ Suggest an addition</a>
@@ -41,10 +41,10 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h2 id="stores-and-others">Support stores, salons, &amp; others</h2>
+  <h2 id="salons">Support hair salon staff</h2>
   <ul>
     {% for item in items %}
-      {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' and item.type != 'resource' %}
+      {% if item.type == 'salon' %}
         <li>
           <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
           {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
@@ -53,7 +53,19 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h2>Support general funds</h2>
+  <h2 id="stores-and-others">Support retail staff &amp; other service-providers</h2>
+  <ul>
+    {% for item in items %}
+      {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' and item.type != 'salon' and item.type != 'resource' and item.type != 'fund' and item.type != 'resource-business' %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h2 id="general-funds">Support general funds</h2>
   <ul>
     {% for item in items %}
       {% if item.type == 'fund' %}
@@ -80,8 +92,7 @@ layout: default
     </ul>
   </section>
 
-  <section id="resources-biz">
-    <hr>
+  <section id="resources-business">
     <h2>Resources for businesses</h2>
     <ul>
       {% for item in items %}
