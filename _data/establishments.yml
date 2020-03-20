@@ -25,9 +25,15 @@
 - title: Whistler
   url: https://www.gofundme.com/f/the-whistler-empoyee-fund
   type: bar
-- title: Metro, Smart Bar, and GMan Tavern
+- title: Metro
   url: https://www.gofundme.com/f/gavakx-helping-support-metrosmartbargman-tavern-staff
   type: venue
+- title: Smart Bar
+  url: https://www.gofundme.com/f/gavakx-helping-support-metrosmartbargman-tavern-staff
+  type: venue
+- title: GMan Tavern
+  url: https://www.gofundme.com/f/gavakx-helping-support-metrosmartbargman-tavern-staff
+  type: bar
 - title: Beermiscuous
   url: https://www.gofundme.com/f/beermiscuous-virtual-beer-cafe
   type: bar
@@ -117,8 +123,16 @@
   type: bar
 - title: Thalia Hall
   url: https://www.gofundme.com/f/thalia-duseks-employee-relief
-  note: Thalia Hall, Dusek's, Tack Room, and Punch House
   type: venue
+- title: Dusek’s
+  url: https://www.gofundme.com/f/thalia-duseks-employee-relief
+  type: restaurant
+- title: Tack Room
+  url: https://www.gofundme.com/f/thalia-duseks-employee-relief
+  type: bar
+- title: Punch House
+  url: https://www.gofundme.com/f/thalia-duseks-employee-relief
+  type: bar
 - title: Simone’s
   url: https://www.gofundme.com/f/simone039s-tip-jar
   type: bar
@@ -603,7 +617,10 @@
 - title: Eris Brewery and Cider House
   url: https://www.gofundme.com/f/eris-brewery-and-cider-house-tip-jar
   type: restaurant
-- title: Hydrate Nightclub and Elixir Lounge
+- title: Hydrate Nightclub
+  url: https://www.gofundme.com/f/hydrate-nightclub-and-elixir-lounge-tip-jar
+  type: bar
+- title: Elixir Lounge
   url: https://www.gofundme.com/f/hydrate-nightclub-and-elixir-lounge-tip-jar
   type: bar
 - title: El Che Steakhouse & Bar
@@ -685,7 +702,10 @@
 - title: Hot Dog Station
   url: https://www.gofundme.com/f/help-hot-dog-station-survive-covid19-virus
   type: restaurant
-- title: Ludlow Liquors and Young American
+- title: Ludlow Liquors
+  url: https://www.gofundme.com/f/ludlow-liquors-young-america
+  type: bar
+- title: Young American
   url: https://www.gofundme.com/f/ludlow-liquors-young-america
   type: bar
 - title: Walk In, The
