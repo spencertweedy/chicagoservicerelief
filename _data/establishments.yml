@@ -223,7 +223,7 @@
   type: restaurant
 - title: Barbara&Barbara
   url: https://www.gofundme.com/f/barbaraampbarbara-battles-corona-closings
-  type: other
+  type: salon
 - title: Twin Anchors
   url: https://www.gofundme.com/f/support-twin-anchors-staff
   type: bar
@@ -304,7 +304,7 @@
   type: venue
 - title: Rev. Billy’s Chop Shop
   url: https://www.gofundme.com/f/SupportRevBillysChopShop
-  type: other
+  type: salon
 - title: Late Bar
   url: https://www.gofundme.com/f/late-bar-tip-jar
   type: bar
@@ -400,7 +400,7 @@
   type: restaurant
 - title: Twisted Scissors
   url: https://www.gofundme.com/f/czqjwy-twisted-scissors-staff-relief-fund
-  type: other
+  type: salon
 - title: Cleos
   url: https://www.gofundme.com/f/cleos-staff-relief-fund
   type: bar
@@ -466,8 +466,8 @@
   type: bar
 - title: Green Room Tap
   url: https://www.gofundme.com/f/hammock-hospitality-employee-relief
-  type: ba
-  - title: Avondale Tap
+  type: bar
+- title: Avondale Tap
   url: https://www.gofundme.com/f/hammock-hospitality-employee-relief
   type: bar
 - title: Hofbrauhaus
@@ -550,7 +550,7 @@
   type: bar
 - title: Sparrow Hair
   url: https://www.sparrowhair.com/new-products/gift-card
-  type: other
+  type: salon
   note: 10% off future hair appointments
 - title: Barrel Maker T-shirt Fundraiser Program
   url: https://barrelmakerprinting.com/covid19-fundraising-stores/
@@ -617,7 +617,7 @@
   type: venue
 - title: Fix Hair Studio
   url: https://www.gofundme.com/f/fix-hair-studio-employee-relief-fund
-  type: other
+  type: salon
 - title: Gideon Welles
   url: https://www.gofundme.com/f/gideon-welles-virtual-tip-jar
   type: restaurant
@@ -696,7 +696,7 @@
   type: other
 - title: Bird’s Nest, The
   url: https://www.gofundme.com/f/the-birds-nest-salon-coronavirus-closing
-  type: other
+  type: salon
 - title: Longman & Eagle
   url: https://www.gofundme.com/f/828bkc-longman-amp-eagle-relief-fund
   type: bar
@@ -815,7 +815,7 @@
 - title: Kopi Cafe
   url: https://www.gofundme.com/f/support-kopi-cafe-tipped-staff
   type: restaurant
-- title: KOVAL Distillery’s alcohol-based sanitizer
+- title: KOVAL Distillery’s Alcohol-based Sanitizer
   url: https://www.gofundme.com/f/help-koval-make-alcoholbased-sanitizer
   type: other
 - title: D.O.C Wine Bar
