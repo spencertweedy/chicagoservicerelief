@@ -115,7 +115,7 @@ h1 span:nth-of-type(3) {
 
 h2 {
   font-size: 1.4rem;
-  margin: 0.5rem 0;
+  margin: 0 0 0.5em;
 }
 
 a {
@@ -129,7 +129,7 @@ nav {
 ul {
   padding-left: 0;
   list-style-type: none;
-  margin: 0 0 1rem;
+  margin: 0 0 1.4rem;
 }
 
 li {
