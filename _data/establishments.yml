@@ -70,10 +70,23 @@
 - title: A Taste of Heaven
   url: https://www.gofundme.com/f/help-a-taste-of-heaven-servers
   type: restaurant
-- title: Footman Hospitality
+- title: Bangers & Lace
   url: https://www.gofundme.com/f/footman-hospitality-employee-relief-fund
-  note: Bangers & Lace, Sparrow, Kite String Cantina, Bucktown Pub, Spilt Milk and
-    Little Victories
+  type: bar
+- title: Sparrow
+  url: https://www.gofundme.com/f/footman-hospitality-employee-relief-fund
+  type: bar
+- title: Kite String Cantina
+  url: https://www.gofundme.com/f/footman-hospitality-employee-relief-fund
+  type: restaurant
+- title: Bucktown Pub
+  url: https://www.gofundme.com/f/footman-hospitality-employee-relief-fund
+  type: bar
+- title: Spilt Milk
+  url: https://www.gofundme.com/f/footman-hospitality-employee-relief-fund
+  type: bar
+- title: Little Victories
+  url: https://www.gofundme.com/f/footman-hospitality-employee-relief-fund
   type: bar
 - title: Royal Palms
   url: https://www.royalpalmschicago.com/for-our-team
@@ -145,7 +158,7 @@
 - title: Green Eye
   url: https://www.gofundme.com/f/green-eye-loungelemmings-bar-staff-relief-fund
   type: bar
-- title: Lizards Liquid Lounge
+- title: Lizard’s Liquid Lounge
   url: https://www.gofundme.com/f/lizards-liquid-lounge-tip-jar
   type: bar
 - title: Bokeh
@@ -442,10 +455,21 @@
 - title: Timothy O’Toole’s
   url: https://www.gofundme.com/f/timothy-otooles-pub
   type: bar
-- title: Hammock Hospitality
+- title: Aberdeen Tap
   url: https://www.gofundme.com/f/hammock-hospitality-employee-relief
   type: bar
-  note: Aberdeen Tap, Wolcott Tap, G&O, Green Room Tap, and Avondale Tap
+- title: Wolcott Tap
+  url: https://www.gofundme.com/f/hammock-hospitality-employee-relief
+  type: bar
+- title: G&O
+  url: https://www.gofundme.com/f/hammock-hospitality-employee-relief
+  type: bar
+- title: Green Room Tap
+  url: https://www.gofundme.com/f/hammock-hospitality-employee-relief
+  type: ba
+  - title: Avondale Tap
+  url: https://www.gofundme.com/f/hammock-hospitality-employee-relief
+  type: bar
 - title: Hofbrauhaus
   url: https://www.gofundme.com/f/hofbrauhaus-staff-relief-fund
   type: restaurant
@@ -549,10 +573,33 @@
 - title: Mac’s Wood Grilled
   url: https://www.gofundme.com/f/mac039s-wood-grilled-staff-relief-fund
   type: restaurant
-- title: One Off Hospitality
+- title: Avec
   url: http://www.thepublicanrestaurant.com/publicancarryout/one-off-employee-relief-fund
   type: restaurant
-  note: Avec, Big Star, Blackbird, Café Cancale, Dove’s Luncheonette, Pacific Standard Time, The Publican, The Laurel Room, The Violet Hour
+- title: Big Star
+  url: http://www.thepublicanrestaurant.com/publicancarryout/one-off-employee-relief-fund
+  type: restaurant
+- title: Blackbird
+  url: http://www.thepublicanrestaurant.com/publicancarryout/one-off-employee-relief-fund
+  type: restaurant
+- title: Café Cancale
+  url: http://www.thepublicanrestaurant.com/publicancarryout/one-off-employee-relief-fund
+  type: restaurant
+- title: Dove’s Luncheonette
+  url: http://www.thepublicanrestaurant.com/publicancarryout/one-off-employee-relief-fund
+  type: restaurant
+- title: Pacific Standard Time
+  url: http://www.thepublicanrestaurant.com/publicancarryout/one-off-employee-relief-fund
+  type: restaurant
+- title: Publican, The
+  url: http://www.thepublicanrestaurant.com/publicancarryout/one-off-employee-relief-fund
+  type: restaurant
+- title: Laurel Room, The
+  url: http://www.thepublicanrestaurant.com/publicancarryout/one-off-employee-relief-fund
+  type: restaurant
+- title: Violet Hour, The
+  url: http://www.thepublicanrestaurant.com/publicancarryout/one-off-employee-relief-fund
+  type: restaurant
 - title: Eris Brewery and Cider House
   url: https://www.gofundme.com/f/eris-brewery-and-cider-house-tip-jar
   type: restaurant
