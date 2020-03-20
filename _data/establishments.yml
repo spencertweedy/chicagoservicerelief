@@ -84,9 +84,20 @@
 - title: Logan Arcade
   url: https://www.gofundme.com/f/logan-arcade-staff-relief-fund
   type: other
-- title: Four Entertainment Group
+- title: aliveOne
   url: https://www.gofundme.com/f/4eg-bar-staff-relief-fund
-  note: aliveOne, Estelle's, Easy Bar, The Owl and Remedy
+  type: bar
+- title: Estelle’s
+  url: https://www.gofundme.com/f/4eg-bar-staff-relief-fund
+  type: bar
+- title: Easy Bar
+  url: https://www.gofundme.com/f/4eg-bar-staff-relief-fund
+  type: bar
+- title: Owl, The
+  url: https://www.gofundme.com/f/4eg-bar-staff-relief-fund
+  type: bar
+- title: Remedy
+  url: https://www.gofundme.com/f/4eg-bar-staff-relief-fund
   type: bar
 - title: Will’s Northwoods Inn
   url: https://www.gofundme.com/f/1xfxe0r700
@@ -673,10 +684,21 @@
 - title: Mom’s
   url: https://www.gofundme.com/f/support-for-mom039s
   type: restaurant
-- title: Gage Hospitality Group
+- title: Acanto Restaurant
   url: https://www.gofundme.com/f/gage-hospitality-group-emloyee-relief-fund
   type: restaurant
-  note: Acanto Restaurant, Beacon Tavern, Coda di Volpe, The Dawson, The Gage
+- title: Beacon Tavern
+  url: https://www.gofundme.com/f/gage-hospitality-group-emloyee-relief-fund
+  type: restaurant
+- title: Coda di Volpe
+  url: https://www.gofundme.com/f/gage-hospitality-group-emloyee-relief-fund
+  type: restaurant
+- title: Dawson, The
+  url: https://www.gofundme.com/f/gage-hospitality-group-emloyee-relief-fund
+  type: restaurant
+- title: Gage, The
+  url: https://www.gofundme.com/f/gage-hospitality-group-emloyee-relief-fund
+  type: restaurant
 - title: Lonesome Rose
   url: https://www.gofundme.com/f/lonesome-rose-employee-fund
   type: restaurant
