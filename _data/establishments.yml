@@ -52,10 +52,20 @@
 - title: Laurie’s Planet of Sound
   url: https://www.paypal.com/paypalme2/lauriesplanetofsound
   type: store
-- title: Scofflaw Group
+- title: Scofflaw
   url: https://www.gofundme.com/f/scofflaw-group-employee-fund
-  note: Scofflaw, Slippery Slope, The Heavy Feather, The Moonlighter, and Outside
-    Voices
+  type: bar
+- title: Slippery Slope
+  url: https://www.gofundme.com/f/scofflaw-group-employee-fund
+  type: bar
+- title: Heavy Feather, The
+  url: https://www.gofundme.com/f/scofflaw-group-employee-fund
+  type: bar
+- title: Moonlighter, The
+  url: https://www.gofundme.com/f/scofflaw-group-employee-fund
+  type: bar
+- title: Outside Voices
+  url: https://www.gofundme.com/f/scofflaw-group-employee-fund
   type: bar
 - title: A Taste of Heaven
   url: https://www.gofundme.com/f/help-a-taste-of-heaven-servers
@@ -88,7 +98,7 @@
 - title: Simone’s
   url: https://www.gofundme.com/f/simone039s-tip-jar
   type: bar
-- title: The Native
+- title: Native, The
   url: https://www.gofundme.com/f/the-native039s-bartender-fund
   type: bar
 - title: Volumes Bookstore
@@ -205,7 +215,7 @@
 - title: DMen Tap
   url: https://www.gofundme.com/f/help-support-dmen-tap-staff
   type: bar
-- title: The Continental
+- title: Continental, The
   url: https://www.gofundme.com/f/the-continental-bar-staff-relief-fund
   type: bar
 - title: Bad Hunter
@@ -298,7 +308,7 @@
 - title: Hopleaf
   url: https://www.gofundme.com/f/hopleaf-staffers-fund
   type: bar
-- title: The Franklin Tap
+- title: Franklin Tap, The
   url: https://www.gofundme.com/f/franklin-tap-employee-relief-and-virtual-tip-jar
   type: restaurant
 - title: Clever Rabbit
@@ -443,7 +453,7 @@
 - title: Carol’s Pub
   url: https://www.gofundme.com/f/carol039s-pub-virtual-tip-jar
   type: bar
-- title: The Delta
+- title: Delta, The
   url: https://www.gofundme.com/f/the-delta-employees
   type: restaurant
 - title: Emporium Arcade Bar
@@ -513,7 +523,7 @@
 - title: Gallery Cabaret Bar
   url: https://www.gofundme.com/f/gallery-cabaret-bar-staff-fund-chicago
   type: bar
-- title: The Forge
+- title: Forge, The
   url: https://www.gofundme.com/f/help-the-forge-staff-during-covid19-shutdown
   type: venue
 - title: Kasey’s Tavern
@@ -620,13 +630,13 @@
 - title: Ludlow Liquors and Young American
   url: https://www.gofundme.com/f/ludlow-liquors-young-america
   type: bar
-- title: The Walk In
+- title: Walk In, The
   url: https://www.gofundme.com/f/the-walk-in-quottip-jarquot
   type: bar
 - title: Logan Parlor
   url: https://www.gofundme.com/f/logan-parlor
   type: other
-- title: The Bird’s Nest
+- title: Bird’s Nest, The
   url: https://www.gofundme.com/f/the-birds-nest-salon-coronavirus-closing
   type: other
 - title: Longman & Eagle
@@ -754,7 +764,7 @@
 - title: Remington’s
   url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
   type: restaurant
-- title: The Windsor
+- title: Windsor, The
   url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
   type: restaurant
 - title: Ella Elli
@@ -802,7 +812,7 @@
 - title: Revival Food Hall
   url: https://www.gofundme.com/f/udqd3-revival-food-hall-employee-relief
   type: restaurant
-- title: The Ruin Daily
+- title: Ruin Daily, The
   url: https://www.gofundme.com/f/the-ruin-daily-employee-relief-fund
   type: restaurant
 - title: Moneygun & Saint Lou’s Assembly
