@@ -341,8 +341,8 @@
   url: https://www.gofundme.com/f/jack-and-gingers-staff-relief-fund
   type: bar
 - title: Long Room
-  url: https://www.gofundme.com/f/let039s-support-the-long-room-crew
-  type: restaurant
+  url: https://supporttheLR.com
+  type: bar
 - title: Rockwell’s
   url: https://www.gofundme.com/f/rockwell039s-employee-fund
   type: restaurant
@@ -709,3 +709,105 @@
 - title: ALTHEA
   url: https://www.gofundme.com/f/althea-employee-relief-fund
   type: restaurant
+- title: Candlelite
+  url: https://www.gofundme.com/f/help-support-our-candlelite-staff
+  type: restaurant
+- title: Firehouse Grill
+  url: https://www.gofundme.com/f/lets-support-our-staff
+  type: restaurant
+- title: Old Town School
+  url: https://www.gofundme.com/f/old-town-school-staff-amp-faculty-assistance
+  type: venue
+- title: Chicago Magic Lounge
+  url: https://www.chicagomagiclounge.com/tip-jar
+  type: venue
+- title: Flying Saucer
+  url: https://www.gofundme.com/f/e7yt5-flying-saucer
+  type: restaurant
+- title: Neon Wilderness
+  url: https://www.gofundme.com/f/neon-wilderness-employee-relief
+  type: bar
+- title: Midtown Athletic Club
+  url: https://www.gofundme.com/f/help-us-afford-to-eat
+  type: other
+- title: Garifuna Flava
+  url: https://www.gofundme.com/f/garifuna-flava-covid19-relief
+  type: restaurant
+- title: Kopi Cafe
+  url: https://www.gofundme.com/f/support-kopi-cafe-tipped-staff
+  type: restaurant
+- title: KOVAL Distillery’s alcohol-based sanitizer
+  url: https://www.gofundme.com/f/help-koval-make-alcoholbased-sanitizer
+  type: other
+- title: D.O.C Wine Bar
+  url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
+  type: restaurant
+- title: Frasca
+  url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
+  type: restaurant
+- title: Smoke Daddy
+  url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
+  type: restaurant
+- title: Crosby’s Kitchen
+  url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
+  type: restaurant
+- title: Remington’s
+  url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
+  type: restaurant
+- title: The Windsor
+  url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
+  type: restaurant
+- title: Ella Elli
+  url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
+  type: restaurant
+- title: Tuco and Blondie
+  url: https://www.gofundme.com/f/4-star-restaurant-group-virtual-tip-jar
+  type: restaurant
+- title: AVLI Taverna
+  url: https://www.gofundme.com/f/to-the-workers-of-avli-taverna
+  type: restaurant
+- title: Beatrix River North
+  url: https://www.gofundme.com/f/beatrix-river-north-bill-pay-and-relief-fund
+  type: restaurant
+- title: 90th Meridian
+  url: https://www.gofundme.com/f/90th-meridian-staff-need-your-help
+  type: restaurant
+- title: Danny’s Tavern
+  url: https://www.gofundme.com/f/danny039s-tavern-staff-support
+  type: bar
+- title: Chicago Small Business Resiliency Fund
+  url: https://www.surveymonkey.com/r/COVID19Chicago
+  type: resource-business
+- title: Supplemental Nutrition Assistance Program (SNAP)
+  url: https://www.dhs.state.il.us/page.aspx?item=30357
+  type: resource
+- title: City of Chicago Rental Assistance
+  url: https://www.chicago.gov/city/en/depts/fss/provdrs/serv/svcs/how_to_find_rentalassistanceinchicago.html
+  type: resource
+- title: Café Selmarie
+  url: https://www.gofundme.com/f/cafe-selmarie-staff-fund
+  type: restaurant
+- title: Green Mill
+  url: https://www.gofundme.com/f/greenmillstaff
+  type: bar
+- title: Go Tavern
+  url: https://www.gofundme.com/f/gotavern-fundme
+  type: bar
+- title: Union and Union Squared
+  url: https://www.gofundme.com/f/union-and-union-squared-employee-relief-fund
+  type: restaurant
+- title: Beauty Bar
+  url: https://stockmfgco.com/collections/chicago-hospitality-united-100-of-proceeds-go-to-hourly-chicago-workers
+  type: bar
+- title: Revival Food Hall
+  url: https://www.gofundme.com/f/udqd3-revival-food-hall-employee-relief
+  type: restaurant
+- title: The Ruin Daily
+  url: https://www.gofundme.com/f/the-ruin-daily-employee-relief-fund
+  type: restaurant
+- title: Moneygun & Saint Lou’s Assembly
+  url: https://www.gofundme.com/f/HelpTheLousers
+  type: restaurant
+- title: Racine Plumbing Bar & Grill
+  url: https://www.gofundme.com/f/racine-plumbing-staff-tip-jar
+  type: bar
