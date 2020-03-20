@@ -1,7 +1,7 @@
 title: Chicago Service Relief
 email: spencer@penguinmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A directory of fundraisers for Chicago bars, venues, and restaurants.
+  A directory of fundraisers for Chicago bars, venues, restaurants, and other service providers.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chicagoservicerelief.com" # the base hostname & protocol for your site, e.g. http://example.com
 
