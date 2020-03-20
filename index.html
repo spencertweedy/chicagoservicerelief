@@ -22,7 +22,7 @@ layout: default
     {% for item in items %}
       {% if item.type contains 'bar' or item.type contains 'venue' or item.type contains 'theater' %}
         <li>
-          <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
           {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
         </li>
       {% endif %}
@@ -34,7 +34,7 @@ layout: default
     {% for item in items %}
       {% if item.type contains 'restaurant' %}
         <li>
-          <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
           {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
         </li>
       {% endif %}
@@ -46,7 +46,7 @@ layout: default
     {% for item in items %}
       {% if item.type == 'salon' %}
         <li>
-          <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
           {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
         </li>
       {% endif %}
@@ -58,7 +58,7 @@ layout: default
     {% for item in items %}
       {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' and item.type != 'salon' and item.type != 'resource' and item.type != 'fund' and item.type != 'resource-business' %}
         <li>
-          <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
           {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
         </li>
       {% endif %}
@@ -70,7 +70,7 @@ layout: default
     {% for item in items %}
       {% if item.type == 'fund' %}
         <li>
-          <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
           {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
         </li>
       {% endif %}
@@ -84,7 +84,7 @@ layout: default
       {% for item in items %}
         {% if item.type == 'resource' %}
           <li>
-            <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
           </li>
         {% endif %}
@@ -98,7 +98,7 @@ layout: default
       {% for item in items %}
         {% if item.type == 'resource-business' %}
           <li>
-            <a href="{{ item.url }}">{{ item.title }} &rarr;</a>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
           </li>
         {% endif %}
