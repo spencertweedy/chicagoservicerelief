@@ -57,6 +57,7 @@
   type: bar
 - title: Laurie’s Planet of Sound
   url: https://www.paypal.com/paypalme2/lauriesplanetofsound
+  note: Record store
   type: store
 - title: Scofflaw
   url: https://www.gofundme.com/f/scofflaw-group-employee-fund
@@ -96,12 +97,14 @@
   type: bar
 - title: Royal Palms
   url: https://www.royalpalmschicago.com/for-our-team
+  note: Shuffleboard club
   type: other
 - title: Reggies
   url: https://www.gofundme.com/f/help-the-reggies-staff
   type: venue
 - title: Logan Arcade
   url: https://www.gofundme.com/f/logan-arcade-staff-relief-fund
+  note: Arcade
   type: other
 - title: aliveOne
   url: https://www.gofundme.com/f/4eg-bar-staff-relief-fund
@@ -207,6 +210,7 @@
   type: restaurant
 - title: Hyde Park Bark
   url: https://www.gofundme.com/f/support-our-dog-walkers-during-coronavirus
+  note: Pet service
   type: other
 - title: Chicago Symphony Orchestra (bartenders)
   url: https://www.gofundme.com/f/virtual-tips-for-cso-concessions-bartenders
@@ -420,6 +424,7 @@
   type: bar
 - title: Chicago Pet Sitters
   url: https://www.facebook.com/donate/2878611555554139/2878847982197163/
+  note: Pet service
   type: other
 - title: Helix Cafe
   url: https://www.gofundme.com/f/support-helix-youth-employees
@@ -525,6 +530,7 @@
   type: restaurant
 - title: Women & Children First
   url: https://libro.fm/womenandchildrenfirst
+  note: Bookstore
   type: store
 - title: Handlebar
   url: https://www.handlebarchicago.com/new-products/gift-card
@@ -713,7 +719,7 @@
   type: bar
 - title: Logan Parlor
   url: https://www.gofundme.com/f/logan-parlor
-  type: other
+  type: salon
 - title: Bird’s Nest, The
   url: https://www.gofundme.com/f/the-birds-nest-salon-coronavirus-closing
   type: salon
@@ -828,6 +834,7 @@
   type: bar
 - title: Midtown Athletic Club
   url: https://www.gofundme.com/f/help-us-afford-to-eat
+  note: Athletic club
   type: other
 - title: Garifuna Flava
   url: https://www.gofundme.com/f/garifuna-flava-covid19-relief
@@ -936,9 +943,11 @@
   type: restaurant
 - title: Lakeshore Sport & Fitness
   url: https://form.jotform.com/EliteSportsClubs/LakeshoreSF?fbclid=IwAR19YAREfy1lvJggkjk3dXe-VOoxi308xGckMPvfJifMZZxZ9UGigWhQ4GA
+  note: Athletic club
   type: other
 - title: Green Paws Chicago
   url: https://www.gofundme.com/f/green-paws-chicago-employee-fund
+  note: Pet service
   type: other
 - title: Bungalow by Middle Brow
   url: https://www.gofundme.com/f/bungalow-employee-fund
