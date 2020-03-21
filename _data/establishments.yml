@@ -949,3 +949,27 @@
 - title: ComedySportz
   url: https://www.gofundme.com/f/help-comedysportz-keep-you-laughing
   type: theater
+- title: Yolo Mexican Restaurant
+  url: https://www.gofundme.com/f/support-yolo-mexican-restaurant
+  type: restaurant
+- title: Schwa
+  url: https://www.gofundme.com/f/support-your-local-schwa
+  type: restaurant
+- title: Monsignor Murphy’s
+  url: https://www.gofundme.com/f/monsignor-murphy039s-virtual-tip-jar
+  type: bar
+- title: City of Chicago Health and Mental Health Resources
+  url: https://www.chicago.gov/city/en/sites/covid-19/home/resources.html#general-information
+  type: resource
+- title: City of Chicago Food Assistance
+  url: https://www.chicago.gov/city/en/sites/covid-19/home/resources.html#food-assistance
+  type: resource
+- title: City of Chicago Housing Assistance
+  url: https://www.chicago.gov/city/en/sites/covid-19/home/resources.html#housing-assistance
+  type: resource
+- title: City of Chicago Resources for Undocumented Individuals
+  url: https://www.chicago.gov/city/en/sites/covid-19/home/resources.html#id-content-city-en-sites-covid-19-home-resources-jcrcontent-main-content-separator
+  type: resource
+- title: City of Chicago Employment and Financial Assistance
+  url: https://www.chicago.gov/city/en/sites/covid-19/home/resources.html#financial-assistance
+  type: resource
