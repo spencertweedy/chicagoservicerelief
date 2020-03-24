@@ -1933,3 +1933,9 @@
 - title: Bottles & Cans
   url: 'https://www.bottlesandcanschicago.com/shop'
   type: store
+- title: Lincoln Square Barbershop
+  url: https://www.gofundme.com/f/lincoln-square-barbershop-barbers
+  type: salon
+- title: Forever Yogurt Andersonville
+  url: https://www.gofundme.com/f/forever-yogurt-andersonville
+  type: restaurant
