@@ -1178,3 +1178,758 @@
 - title: Virtue Restaurant
   url: https://www.gofundme.com/f/virtue-restaurant-employee-support
   type: restaurant
+- title: Replay Lincoln Park
+  url: https://squareup.com/gift/20YBRPX09JNR9/order
+  type: bar
+- title: Larry’s
+  url: 'https://www.gofundme.com/f/1xhn5n9rw0'
+  type: bar
+- title: Wells On Wells
+  url: 'https://www.gofundme.com/f/1xhzf37hc0'
+  type: bar
+- title: McGee’s
+  url: 'https://www.gofundme.com/f/1xigvxrnyo'
+  type: bar
+- title: Drifter
+  url: 'https://www.gofundme.com/f/22vgm-the-drifter-ghosts-miss-you'
+  type: bar
+- title: Half Acre Beer
+  url: 'https://www.gofundme.com/f/864u77-half-acre-employee-relief-fund'
+  type: bar
+- title: AJ Hudson’s Public House
+  url: 'https://www.gofundme.com/f/aj-hudson039s-public-house-tip-jar'
+  type: bar
+- title: ALULU Brewpub
+  url: 'https://www.gofundme.com/f/alulu-staff-fund'
+  type: bar
+- title: BeerShop
+  url: 'https://www.gofundme.com/f/beershop-servers'
+  type: bar
+- title: Bernie’s Tap & Grill
+  url: 'https://www.gofundme.com/f/bernies-tap-amp-grill'
+  type: bar
+- title: Hopsmith Tavern
+  url: 'https://www.gofundme.com/f/big-onion-staff-relief-fund'
+  type: bar
+- title: Blockhouse Bar
+  url: 'https://www.gofundme.com/f/blockhouse-digital-tavern'
+  type: bar
+- title: Bold Dog Beer Co
+  url: 'https://www.gofundme.com/f/bold-dog-beer-co-virtual-tip-jar'
+  type: bar
+- title: Bongo Room
+  url: 'https://www.gofundme.com/f/bongo-room-employees-relief-fund'
+  type: bar
+- title: Brownstone Tavern
+  url: 'https://www.gofundme.com/f/brownstone-tavern-employee-relief-fund'
+  type: bar
+- title: Budweiser Brickhouse Tavern
+  url: 'https://www.gofundme.com/f/budweiser-brickhouse-tavern-employees'
+  type: bar
+- title: Cary’s Lounge
+  url: 'https://www.gofundme.com/f/cary039s-lounge-staff-fundraiser'
+  type: bar
+- title: Flagship Tavern & Grill
+  url: 'https://www.gofundme.com/f/flagship-staff'
+  type: bar
+- title: Floyd’s Pub
+  url: 'https://www.gofundme.com/f/floyd039s-staff-tip-jar'
+  type: bar
+- title: Four Shadows Tavern & Grill
+  url: 'https://www.gofundme.com/f/four-shadows-bartenders'
+  type: bar
+- title: Cactus Bar & Grill
+  url: >-
+    https://www.gofundme.com/f/franklin-tap-amp-cactus-bar-amp-grill-employee-fund
+  type: bar
+- title: Gaslight Bar
+  url: 'https://www.gofundme.com/f/gaslight-staff-relief-fund'
+  type: bar
+- title: Paddy Mac’s
+  url: 'https://www.gofundme.com/f/help-paddy-mac039s-employees-during-shutdown'
+  type: bar
+- title: Vu Rooftop
+  url: 'https://www.gofundme.com/f/help-support-all-employees-of-vu-rooftop'
+  type: bar
+- title: Replay Lakeview
+  url: 'https://www.gofundme.com/f/help-support-the-replay-lakeview-staff'
+  type: bar
+- title: Long Room
+  url: 'https://www.gofundme.com/f/let039s-support-the-long-room-crew'
+  type: bar
+- title: Madison Tavern
+  url: >-
+    https://www.gofundme.com/f/madison-tavern-restaurant-workers-amp-their-families
+  type: bar
+- title: New Line Tavern
+  url: 'https://www.gofundme.com/f/new-line-tavern-employee-relief-fund'
+  type: bar
+- title: O’Callaghan’s
+  url: 'https://www.gofundme.com/f/o039callaghan039s-pub-staff-relief'
+  type: bar
+- title: Pilot Project Brewing
+  url: 'https://www.gofundme.com/f/pilot-project-brewing-staff-relief-fund'
+  type: bar
+- title: Redmond’s Ale House
+  url: 'https://www.gofundme.com/f/redmond039s-ale-house-tip-jar'
+  type: bar
+- title: Rootstock Wine & Beer
+  url: 'https://www.gofundme.com/f/rootstock-wine-amp-beer-bar-employee-aid'
+  type: bar
+- title: Rocking Horse
+  url: 'https://www.gofundme.com/f/save-rockinghorse-servers-and-bartenders'
+  type: bar
+- title: 'Double Tavern, The'
+  url: 'https://www.gofundme.com/f/the-double-tavern-employee-fund'
+  type: bar
+- title: Red Lion Pub
+  url: 'https://www.gofundme.com/f/the-red-lion-pub'
+  type: bar
+- title: 2Twenty2 Tavern
+  url: 'https://www.gofundme.com/f/tip-jar-for-2twenty2-tavern'
+  type: bar
+- title: Bulldog Ale House
+  url: 'https://www.gofundme.com/f/tip-jar-to-help-us-through-covid19-closing'
+  type: bar
+- title: Tai’s Til 4
+  url: 'https://www.gofundme.com/f/tips-for-tais-bartenders-assistance'
+  type: bar
+- title: Town Hall Pub
+  url: 'https://www.gofundme.com/f/town-hall-pub-employee-relief-fund'
+  type: bar
+- title: Scarlet Bar
+  url: 'https://www.gofundme.com/f/virtual-tip-jar-for-scarlet-bar'
+  type: bar
+- title: 'Weather Mark Tavern '
+  url: 'https://www.gofundme.com/f/weather-mark-tavern'
+  type: bar
+- title: Happy’s Lounge
+  url: 'https://www.gofundme.com/f/yyrrwp-employee-relief-fund'
+  type: bar
+- title: HVAC PUB
+  url: 'https://www.gofundme.com/f/yyrrwp-employee-relief-fund'
+  type: bar
+- title: Temperance Beer Co
+  url: 'https://www.gofundme.com/manage/temperance-beer-co-employee-aid-fund/'
+  type: bar
+- title: Bad Apple
+  url: 'http://www.badapplebar.com/shop'
+  type: bar
+- title: On Tour Brewing Co.
+  url: 'https://squareup.com/gift/7MF2C6TJP3ENB/order'
+  type: bar
+- title: Urban Renewal Brewery
+  url: 'https://squareup.com/gift/7687G148J1JZ6/order'
+  type: bar
+- title: Avondale Bowl
+  url: 'https://www.gofundme.com/f/1xiinrgig0'
+  type: other
+- title: 'Scales And Tales Traveling Zoo '
+  url: >-
+    https://www.gofundme.com/f/help-feed-amp-maintain-animals-at-scales-amp-tales-zoo
+  type: other
+- title: 'mySpa at Fairmont Chicago, Millennium Park'
+  url: 'https://fhc60601.na.book4time.com/spagift/'
+  type: other
+- title: Bang Bang Pie
+  url: 'http://www.bangbangpie.com/shop'
+  type: restaurant
+- title: Fat Rice
+  url: 'https://fatrice.kitchen/'
+  type: restaurant
+- title: Damn Fine Coffee Bar
+  url: 'https://tinyurl.com/damn-fine-coffee-bar'
+  type: restaurant
+- title: Altiro Latín Fusión LaGrange
+  url: 'https://www.altirolatinfusion.com/'
+  type: restaurant
+- title: Kusanya Cafe
+  url: >-
+    https://www.facebook.com/donate/201040607876335/?fundraiser_source=external_url
+  type: restaurant
+- title: 1959 Kitchen & Bar
+  url: 'https://www.gofundme.com/f/1959-kitchen-and-bar-employee-fund'
+  type: restaurant
+- title: Heritage Coffee
+  url: 'https://www.gofundme.com/f/1xhn5n9rw0'
+  type: restaurant
+- title: Happy Camper (Wrigleyville)
+  url: 'https://www.gofundme.com/f/1xhr6ou2xc'
+  type: restaurant
+- title: Teacalitlan
+  url: 'https://www.gofundme.com/f/1xi0756j9c'
+  type: restaurant
+- title: Coco Pazzo
+  url: 'https://www.gofundme.com/f/1xigcasbtc'
+  type: restaurant
+- title: Fiesta Mexicana (Uptown)
+  url: 'https://www.gofundme.com/f/1xiz11yfio'
+  type: restaurant
+- title: 3 Squares Diner
+  url: 'https://www.gofundme.com/f/3-squares-diner-employee-fund'
+  type: restaurant
+- title: Blissful Banana Cafe
+  url: 'https://www.gofundme.com/f/blissful-banana-relief-fund'
+  type: restaurant
+- title: Bombastic Cafe
+  url: 'https://www.gofundme.com/f/bombastic-cafe-virtual-tips'
+  type: restaurant
+- title: Boqueria
+  url: 'https://www.gofundme.com/f/boqueria-restaurant'
+  type: restaurant
+- title: Border Taco
+  url: 'https://www.gofundme.com/f/border-taco'
+  type: restaurant
+- title: Build Coffee
+  url: 'https://www.gofundme.com/f/build-coffee-support-fund'
+  type: restaurant
+- title: Burger Antics
+  url: 'https://www.gofundme.com/f/burger-antics-virtual-tip-jar'
+  type: restaurant
+- title: Cafe Vienna
+  url: 'https://www.gofundme.com/f/cafe-vienna-chicago'
+  type: restaurant
+- title: Carnivale
+  url: 'https://www.gofundme.com/f/carnivale-staff-relief-fund'
+  type: restaurant
+- title: West Town Bakery
+  url: 'https://www.gofundme.com/f/cc9wn-help-employees-of-west-town-bakery'
+  type: restaurant
+- title: Ceres’ Table
+  url: 'https://www.gofundme.com/f/ceres-table-employee-fund'
+  type: restaurant
+- title: Cantina Laredo
+  url: 'https://www.gofundme.com/f/chicago-cantina-laredo-hrly-employees'
+  type: restaurant
+- title: Latinicity Food Hall
+  url: 'https://www.gofundme.com/f/chicago-resturaunt-industry-relief-fund'
+  type: restaurant
+- title: Dark Matter Coffee
+  url: 'https://www.gofundme.com/f/dmc-staff-relief-fund'
+  type: restaurant
+- title: Elizabeth Restaurant
+  url: 'https://www.gofundme.com/f/elizabeth-restaurant-relief-fund'
+  type: restaurant
+- title: Little Goat Diner
+  url: 'https://www.gofundme.com/f/for-the-love-of-goats'
+  type: restaurant
+- title: Grand Lux Cafe
+  url: 'https://www.gofundme.com/f/grand-lux-cafe-employee-help-fund'
+  type: restaurant
+- title: Roots Pizza (West Town)
+  url: 'https://www.gofundme.com/f/help-the-employees-of-roots-pizza-in-west-town'
+  type: restaurant
+- title: Geraldine’s
+  url: 'https://www.gofundme.com/f/jerry039s-sandwiches-support-donations'
+  type: restaurant
+- title: Jerry’s Sandwiches
+  url: 'https://www.gofundme.com/f/jerry039s-sandwiches-support-donations'
+  type: restaurant
+- title: Lettuce Entertain You
+  url: 'https://www.gofundme.com/f/LEYEemployeerelief'
+  type: restaurant
+- title: Mable’s Table
+  url: 'https://www.gofundme.com/f/mable039s-table-employee-relief-fund'
+  type: restaurant
+- title: Nella Pizza e Pasta
+  url: 'https://www.gofundme.com/f/nella-restaurant-workers-fund'
+  type: restaurant
+- title: Ocean Prime
+  url: 'https://www.gofundme.com/f/ocean-prime-chicago-virtual-tip-jar'
+  type: restaurant
+- title: Old Pueblo Cantina
+  url: 'https://www.gofundme.com/f/old-pueblo-cantina-virtual-tip-jar'
+  type: restaurant
+- title: Roots Pizza (Old Town)
+  url: >-
+    https://www.gofundme.com/f/please-help-our-staff-at-root039s-pizza-in-old-town
+  type: restaurant
+- title: Printer’s Row Coffee Co.
+  url: 'https://www.gofundme.com/f/prcc-virtual-tip-jar'
+  type: restaurant
+- title: Ranalli’s (Lincoln Park)
+  url: 'https://www.gofundme.com/f/ranalli039s-staff-relief-fund'
+  type: restaurant
+- title: Roots Pizza (Linoln Square)
+  url: >-
+    https://www.gofundme.com/f/roots-handmade-pizza-and-the-sixth-on-lawrence-ave
+  type: restaurant
+- title: Avondale Coffee Club
+  url: 'https://www.gofundme.com/f/the-avondale-coffee-club-employee-relief'
+  type: restaurant
+- title: 'Robey, The'
+  url: 'https://www.gofundme.com/f/the-robey-relief-fund'
+  type: restaurant
+- title: Vanille Patisserie
+  url: 'https://www.gofundme.com/f/the-ultimate-tip-jar'
+  type: restaurant
+- title: Mindy’s Hot Chocolate Bakery (Revival)
+  url: 'https://www.gofundme.com/f/udqd3-revival-food-hall-employee-relief'
+  type: restaurant
+- title: Pizzeria Uno
+  url: 'https://www.gofundme.com/f/unoonlinetipjar'
+  type: restaurant
+- title: Viet Nom Nom (Evanston)
+  url: 'https://www.gofundme.com/f/viet-nom-nom-employee-fund'
+  type: restaurant
+- title: LaShuk Street Food
+  url: 'https://www.gofundme.com/f/virtual-tip-jar-lashuk-street-food-employees'
+  type: restaurant
+- title: PIKO Street Kitchen
+  url: 'https://www.gofundme.com/f/virtual-tip-jar-piko-street-kitchen-employees'
+  type: restaurant
+- title: Lunchroom at SPACE 519
+  url: 'https://www.gofundme.com/f/vtxtpd-the-lunchroom-virtual-tip-jar'
+  type: restaurant
+- title: Tricycle Chicago
+  url: 'https://www.gofundme.com/manage/help-support-tricycle-chicagos-staff'
+  type: restaurant
+- title: New Orleans Seafood
+  url: 'https://www.gofundme.com/new-orleans-seafood-staff'
+  type: restaurant
+- title: Aztec Daves Food Truck
+  url: 'https://www.gofundme.com/we-ask-for-help-for-our-business-and-team-members'
+  type: restaurant
+- title: Firecakes Donuts
+  url: 'https://www.toasttab.com/firecakes-lincoln-park/v3'
+  type: restaurant
+- title: Wishbone
+  url: 'https://www.wishbonechicago.com/store/gift-cards/'
+  type: restaurant
+- title: 10Q Chicken
+  url: 'https://www.10qchicken.com/#egift-cards-section'
+  type: restaurant
+- title: Cafe Tola
+  url: 'https://squareup.com/gift/FSA7K5Z504V17/order'
+  type: restaurant
+- title: Frontera Restaurants
+  url: 'https://www.rickbayless.com/shopping/restaurant-gift-cards/'
+  type: restaurant
+- title: Gather
+  url: 'https://www.gatherchicago.com/gift-cards'
+  type: restaurant
+- title: 'Geja’s Cafe '
+  url: 'https://www.gejascafe.com/gift-cards/'
+  type: restaurant
+- title: HaiSous
+  url: 'https://squareup.com/gift/4MY1KDYK85QVZ/order'
+  type: restaurant
+- title: 'Jet’s Pizza '
+  url: 'https://www.jetspizza.com/giftcards'
+  type: restaurant
+- title: Kaathis
+  url: 'https://go.kaathis.com/gifts'
+  type: restaurant
+- title: Mercadito
+  url: 'https://www.mercaditorivernorth.com/gift-cards-2/'
+  type: restaurant
+- title: Mi Tocaya
+  url: 'https://shop.mitocaya.com/'
+  type: restaurant
+- title: Molly’s Cupcakes
+  url: 'https://swipeit.com/product/484/mollys-cupcakes'
+  type: restaurant
+- title: Nando’s Peri-Peri Chicken
+  url: 'https://www.nandosperiperi.com/peri-products/gift-card'
+  type: restaurant
+- title: No Bones Beach Club
+  url: 'https://www.toasttab.com/no-bones-beach-club/giftcards'
+  type: restaurant
+- title: 'Northfield Restaurant '
+  url: 'https://www.oceanprimegiftcards.com'
+  type: restaurant
+- title: Pasta Palazzo
+  url: 'https://squareup.com/gift/J18W0JSRVW2GR/order'
+  type: restaurant
+- title: 'Piece Pizzeria & Brewery '
+  url: 'https://piecechicago.cardfoundry.com/giftcards.php'
+  type: restaurant
+- title: Porto
+  url: 'https://www.bonhommegroup.com/'
+  type: restaurant
+- title: Spacca Napoli
+  url: 'https://www.spaccanapolipizzeria.com/shop/giftcards'
+  type: restaurant
+- title: 'Table, Donkey, and Stick'
+  url: 'https://swipeit.com/product/1678/table-donkey-and-stick'
+  type: restaurant
+- title: 'Perfect Cup, The'
+  url: 'https://squaremktg.com/campaigns/TBaP0AmsAtGuNhh3/landing'
+  type: restaurant
+- title: Tortello
+  url: 'https://www.toasttab.com/tortello-1746-west-division/giftcards'
+  type: restaurant
+- title: Turkitch Turkish Kitchen
+  url: 'https://turkitch.us/index.php?route=account/voucher'
+  type: restaurant
+- title: Tuscan Hen
+  url: 'https://squareup.com/gift/F0JRES840QXSH/order'
+  type: restaurant
+- title: 'Warbler, The'
+  url: 'https://www.thewarblerchicago.com/#gift-cards-section'
+  type: restaurant
+- title: Bentley Hair & Beauty
+  url: 'https://www.gofundme.com/f/bentley-hampb-hair-stylists'
+  type: salon
+- title: 'Mitazi Salon and Boutique '
+  url: >-
+    https://www.gofundme.com/f/mitazi-theoldest-amp-most-caring-salon-lincoln-park
+  type: salon
+- title: JMizHair
+  url: 'https://venmo.com/jmizhair'
+  type: salon
+- title: Gramaphone Records
+  url: 'https://www.gofundme.com/f/help-us-support-gramaphone-records'
+  type: store
+- title: Book Cellar
+  url: 'https://www.bookcellarinc.com/book-cellar-gift-card'
+  type: store
+- title: 25 Degrees
+  url: 'https://www.gofundme.com/f/25-degrees-chicago-employee-relief'
+  type: restaurant
+- title: Christina’s Place
+  url: 'https://www.gofundme.com/f/5u8ru-virtual-tip-jar'
+  type: bar
+- title: Habana Libre
+  url: 'https://www.gofundme.com/f/6kfn2s-relief-fund'
+  type: restaurant
+- title: About Last Knife
+  url: 'https://www.gofundme.com/f/about-last-knife-staff-relief-fund'
+  type: restaurant
+- title: Ascione Bistro
+  url: 'https://www.gofundme.com/f/ascione-bistro-team'
+  type: restaurant
+- title: Cell Block Chicago
+  url: 'https://www.gofundme.com/f/assistance-for-cell-block-chicago'
+  type: bar
+- title: Baci Amore
+  url: 'https://www.gofundme.com/f/baci-amore-employee-fund'
+  type: restaurant
+- title: Bacon & Jam
+  url: 'https://www.gofundme.com/f/bacon-amp-jam-employee-relief-fund'
+  type: restaurant
+- title: Bayan Ko
+  url: 'https://www.gofundme.com/f/bayan-ko-employees'
+  type: restaurant
+- title: Bark by the Park
+  url: 'https://www.gofundme.com/f/bbtp-employee-relief-fund'
+  type: other
+- title: Bernie’s
+  url: 'https://www.gofundme.com/f/bernies-employee-tip-jar'
+  type: restaurant
+- title: Bistronomic
+  url: 'https://www.gofundme.com/f/bistronomic-virtual-bistro'
+  type: restaurant
+- title: Boka Restaurant Group
+  url: 'https://www.gofundme.com/f/boka-restaurant-group-employee-fund'
+  type: restaurant
+- title: Cebu Chicago
+  url: 'https://www.gofundme.com/f/cebu-chicago-employee-relief-fund'
+  type: restaurant
+- title: Chicago Chorale
+  url: 'https://www.gofundme.com/f/chicago039s-campaign-for-chicago-chorale'
+  type: other
+- title: Chicago Server Pandemic Relief Fund
+  url: 'https://www.gofundme.com/f/ChicagoServerSupport'
+  type: fund
+- title: Chop Shop
+  url: 'https://www.gofundme.com/f/chop-shop-virtual-beats-amp-eats'
+  type: venue
+- title: Krave
+  url: 'https://www.gofundme.com/f/ClubKraveTipJar'
+  type: bar
+- title: Kroll’s South Loop
+  url: 'https://www.gofundme.com/f/covid19-helping-our-bartenders-amp-servers'
+  type: bar
+- title: Marty’s
+  url: 'https://www.gofundme.com/f/dat39q-martys-staff'
+  type: bar
+- title: Duffy’s
+  url: 'https://www.gofundme.com/f/duffys-staff-tip-jar'
+  type: bar
+- title: Durkin’s
+  url: 'https://www.gofundme.com/f/durkins-tavern-tip-jar'
+  type: bar
+- title: Cherry Circle Room
+  url: >-
+    https://www.gofundme.com/f/eg9hqb-virtual-tip-jar-for-land-amp-sea-dept-the-caa
+  type: restaurant
+- title: Drawing Room
+  url: >-
+    https://www.gofundme.com/f/eg9hqb-virtual-tip-jar-for-land-amp-sea-dept-the-caa
+  type: bar
+- title: Game Room
+  url: >-
+    https://www.gofundme.com/f/eg9hqb-virtual-tip-jar-for-land-amp-sea-dept-the-caa
+  type: other
+- title: Milk Room
+  url: >-
+    https://www.gofundme.com/f/eg9hqb-virtual-tip-jar-for-land-amp-sea-dept-the-caa
+  type: bar
+- title: Egg Harbor
+  url: 'https://www.gofundme.com/f/egg-harbor-cafe-employee-relief-fund'
+  type: restaurant
+- title: Eduardo’s Enoteca
+  url: 'https://www.gofundme.com/f/emergency-relief-for-eduardo039s-employees'
+  type: restaurant
+- title: Fatpour (McCormick)
+  url: 'https://www.gofundme.com/f/fatpour-mccormick-virtual-tip-jar'
+  type: bar
+- title: Fatpour (Wicker Park)
+  url: 'https://www.gofundme.com/f/fatpour-wicker-park'
+  type: bar
+- title: F. O’Mahony’s
+  url: 'https://www.gofundme.com/f/fos-virtual-tip-jar'
+  type: bar
+- title: Galway Arms
+  url: 'https://www.gofundme.com/f/galway-arms-employee-fund'
+  type: restaurant
+- title: Gemini
+  url: 'https://www.gofundme.com/f/gemini-virtual-tip-jar'
+  type: restaurant
+- title: Gene & Georgetti
+  url: 'https://www.gofundme.com/f/gene-and-georgetti-employee-relief-fund'
+  type: restaurant
+- title: Godfrey
+  url: >-
+    https://www.gofundme.com/f/godfrey-restaurant-and-bar-staff-relief-fund?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet
+  type: restaurant
+- title: Ground Control
+  url: 'https://www.gofundme.com/f/ground-control-staff-fund'
+  type: restaurant
+- title: Halo for Men
+  url: 'https://www.gofundme.com/f/halo-for-men-employee-emergency-fund'
+  type: salon
+- title: 'Pint '
+  url: 'https://www.gofundme.com/f/heaeg-20000'
+  type: bar
+- title: Sportsman’s Club
+  url: 'https://www.gofundme.com/f/heisler-hospitality-employee-fund'
+  type: bar
+- title: Artango Bar & Steakhouse
+  url: 'https://www.gofundme.com/f/help-artango-bar-amp-steakhouse-staff'
+  type: restaurant
+- title: Five Star
+  url: 'https://www.gofundme.com/f/help-five-star-employees'
+  type: bar
+- title: Steingold’s
+  url: 'https://www.gofundme.com/f/help-keep-steingolds-alive'
+  type: restaurant
+- title: Mastro’s
+  url: 'https://www.gofundme.com/f/help-mastro039s-chicago-support-staff-laid-off'
+  type: restaurant
+- title: Highline
+  url: 'https://www.gofundme.com/f/highline-staff-relief-fund'
+  type: bar
+- title: Hogsalt
+  url: 'https://www.gofundme.com/f/hogsalt-employee-emergency-relief-fund'
+  type: restaurant
+- title: Hutch American Bistro
+  url: 'https://www.gofundme.com/f/hutch-american-bistro-virtual-tipjar'
+  type: restaurant
+- title: Hutch American Cafe
+  url: 'https://www.gofundme.com/f/hutch-american-cafe-virtual-tip-jar'
+  type: restaurant
+- title: Hutch American Kitchen
+  url: 'https://www.gofundme.com/f/hutch-american-kitchen-virtual-tip-jar'
+  type: restaurant
+- title: Irish Oak
+  url: 'https://www.gofundme.com/f/irish-oak-virtual-tip-jar'
+  type: restaurant
+- title: Twisted Roots Chicago
+  url: 'https://www.gofundme.com/f/j2yq87-virtual-tip-jar'
+  type: other
+- title: Juno & Mako
+  url: 'https://www.gofundme.com/f/juno-mako-employee-relief-fund'
+  type: restaurant
+- title: Cucina Paradiso
+  url: 'https://www.gofundme.com/f/k65ah-virtual-tip-jar'
+  type: restaurant
+- title: Kumiko
+  url: 'https://www.gofundme.com/f/kumiko-kikko-support-the-staff'
+  type: restaurant
+- title: La Quebrada
+  url: 'https://www.gofundme.com/f/la-quebrada-restaurant'
+  type: restaurant
+- title: Las Fuentes
+  url: 'https://www.gofundme.com/f/las-fuentes-employee-relief-fund'
+  type: restaurant
+- title: Last Call Tavern Group
+  url: 'https://www.gofundme.com/f/last-call-tavern-group-emergency-relief-fund'
+  type: bar
+- title: Little Broken Things
+  url: 'https://www.gofundme.com/f/lbt-employee-relief-fund'
+  type: salon
+- title: Maplewood
+  url: 'https://www.gofundme.com/f/maplewood-virtual-lounge'
+  type: bar
+- title: 'Matchbox, The '
+  url: 'https://www.gofundme.com/f/matchbox-bartender-tip-jar'
+  type: bar
+- title: Mayan Palace
+  url: 'https://www.gofundme.com/f/mayan-palace-in-chicago-employee-fund'
+  type: bar
+- title: Midtown Health
+  url: 'https://www.gofundme.com/f/midtown-employee-fund-chicago'
+  type: other
+- title: Mindful Baking
+  url: 'https://www.gofundme.com/f/mindful-baking-employee-relief'
+  type: restaurant
+- title: Mom’s Place
+  url: 'https://www.gofundme.com/f/mom039s-place-tip-jar'
+  type: bar
+- title: Mon Ami Gabi
+  url: 'https://www.gofundme.com/f/mon-ami-gabi-chicago-hourly-employee-assistance'
+  type: restaurant
+- title: Rolls N Bowls
+  url: 'https://www.gofundme.com/f/nxeg6v-rolls-n-bowls-needs-you'
+  type: restaurant
+- title: Omega Yeast
+  url: 'https://www.gofundme.com/f/omega-yeast-employee-support-fund'
+  type: bar
+- title: Oriole
+  url: 'https://www.gofundme.com/f/oriole-support-the-staff'
+  type: restaurant
+- title: Peckish Pig
+  url: 'https://www.gofundme.com/f/peckish-virtual-tip-jar'
+  type: restaurant
+- title: Prairie Moon
+  url: 'https://www.gofundme.com/f/prairie-moon-employee-relief-fund'
+  type: restaurant
+- title: Pressure Billiards
+  url: 'https://www.gofundme.com/f/pressure-billiards-employee-relief-fund'
+  type: bar
+- title: Progress Bar
+  url: 'https://www.gofundme.com/f/progressbar-staff-relief-fund'
+  type: bar
+- title: Rebel & Rye
+  url: 'https://www.gofundme.com/f/rebel-amp-rye-virtual-bar'
+  type: bar
+- title: Roadhouse 66
+  url: 'https://www.gofundme.com/f/roadhouse-66-employees'
+  type: restaurant
+- title: ROOH Chicago
+  url: 'https://www.gofundme.com/f/rooh-chicago-tip-jar'
+  type: bar
+- title: 'Sixth, The'
+  url: >-
+    https://www.gofundme.com/f/roots-handmade-pizza-and-the-sixth-on-lawrence-ave
+  type: bar
+- title: Royal Grocer & Co.
+  url: 'https://www.gofundme.com/f/royal-grocer-amp-co-employee-fund'
+  type: restaurant
+- title: 'Sedgwick Stop, The'
+  url: 'https://www.gofundme.com/f/s8tnj-virtual-tips'
+  type: restaurant
+- title: Smyth + The Loyalist
+  url: 'https://www.gofundme.com/f/smyth-amp-the-loyalist-staff-support'
+  type: restaurant
+- title: Stocks & Blondes
+  url: 'https://www.gofundme.com/f/stocks-amp-blondes-employee-fund'
+  type: bar
+- title: Band of Bohemia
+  url: 'https://www.gofundme.com/f/support-band-of-bohemia-staff'
+  type: restaurant
+- title: Cellar Door Provisions
+  url: 'https://www.gofundme.com/f/support-cellar-door-workers'
+  type: restaurant
+- title: Corridor
+  url: 'https://www.gofundme.com/f/support-for-team-dryhop-corridor-roebuck'
+  type: restaurant
+- title: 'Store, The'
+  url: 'https://www.gofundme.com/f/support-for-the-store-staff'
+  type: bar
+- title: Margaret’s
+  url: 'https://www.gofundme.com/f/support-our-beloved-margaret039s'
+  type: bar
+- title: Perilla Korean American Fare
+  url: 'https://www.gofundme.com/f/support-perilla-korean-restaurant-employees'
+  type: restaurant
+- title: Nick’s Billiards
+  url: 'https://www.gofundme.com/f/support-the-guys-who-feed-you'
+  type: bar
+- title: Happy Lobster
+  url: 'https://www.gofundme.com/f/support-the-happy-lobster-team'
+  type: restaurant
+- title: Theory
+  url: 'https://www.gofundme.com/f/support-theory-team-members'
+  type: restaurant
+- title: Tanta
+  url: 'https://www.gofundme.com/f/tanta-chicago-employee-relief'
+  type: restaurant
+- title: That’s Amore Florist
+  url: 'https://www.gofundme.com/f/that039s-amore-employees'
+  type: store
+- title: Thattu
+  url: 'https://www.gofundme.com/f/thattu-team-virtual-tip-jar'
+  type: restaurant
+- title: 'Closet, The'
+  url: 'https://www.gofundme.com/f/the-closets-virtual-tip-jar'
+  type: bar
+- title: 'Dandy Crown, The'
+  url: 'https://www.gofundme.com/f/the-dandy-crown-tip-jar'
+  type: bar
+- title: Madison Bar & Kitchen
+  url: 'https://www.gofundme.com/f/the-madison-bar-kitchen-virtual-tip-jar'
+  type: bar
+- title: Palm
+  url: 'https://www.gofundme.com/f/the-palm-staff-support'
+  type: restaurant
+- title: Third Rail
+  url: 'https://www.gofundme.com/f/third-rail-virtual-tip-jar'
+  type: bar
+- title: Momotaro
+  url: 'https://www.gofundme.com/f/virtual-bar-tips-for-the-momotaro-bar-crew'
+  type: restaurant
+- title: Spiteful
+  url: 'https://www.gofundme.com/f/virtual-tip-for-spiteful-team'
+  type: bar
+- title: 'Green Lady, The'
+  url: 'https://www.gofundme.com/f/virtual-tip-for-tgl-beertenders'
+  type: bar
+- title: Nick’s on Wilson
+  url: 'https://www.gofundme.com/f/virtual-tip-jar-for-nick039s-on-wilson-staff'
+  type: bar
+- title: Posto 31
+  url: 'https://www.gofundme.com/f/virtual-tip-jar-for-posto-31'
+  type: restaurant
+- title: Monkey’s Paw
+  url: 'https://www.gofundme.com/f/virtual-tip-jar-for-the-monkeys-paw'
+  type: restaurant
+- title: Walton Street
+  url: 'https://www.gofundme.com/f/walton-street-virtual-tip-jar'
+  type: restaurant
+- title: Wazwan Chicago
+  url: 'https://www.gofundme.com/f/wazwan-chicago-virtual-tip-jar'
+  type: restaurant
+- title: Woodie’s Flat
+  url: 'https://www.gofundme.com/f/woodie039s-flat-virtual-tip-jar'
+  type: restaurant
+- title: Dime
+  url: 'https://www.gofundme.com/f/yyrrwp-employee-relief-fund'
+  type: bar
+- title: Hubbard Inn
+  url: 'https://www.gofundme.com/f/yyrrwp-employee-relief-fund'
+  type: restaurant
+- title: Joy District
+  url: 'https://www.gofundme.com/f/yyrrwp-employee-relief-fund'
+  type: bar
+- title: Old Grounds Social
+  url: 'https://www.gofundme.com/f/yyrrwp-employee-relief-fund'
+  type: bar
+- title: Marisol at the MCA
+  url: >-
+    https://www.gofundme.com/manage/emergency-relief-for-staff-at-marisol-at-the-mca
+  type: restaurant
+- title: Maxwell Street Klezmer Band
+  url: 'https://www.klezmermusicfoundation.org/'
+  type: other
+- title: Baker Miller
+  url: 'https://squareup.com/gift/K1AMF9TA7HHA2/order'
+  type: restaurant
+- title: Beatnik
+  url: 'https://www.bonhommegroup.com/'
+  type: restaurant
+- title: Bottles & Cans
+  url: 'https://www.bottlesandcanschicago.com/shop'
+  type: store
