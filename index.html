@@ -79,7 +79,7 @@ layout: default
 
   <section id="resources">
     <hr>
-    <h2>Resources for artists and freelancers</h2>
+    <h2>Resources for individuals</h2>
     <ul>
       {% for item in items %}
         {% if item.type == 'resource' %}
@@ -97,6 +97,20 @@ layout: default
     <ul>
       {% for item in items %}
         {% if item.type == 'resource-business' %}
+          <li>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
+            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section id="resource-lists">
+    <h2>Additional resource lists</h2>
+    <ul>
+      {% for item in items %}
+        {% if item.type == 'resource-list' %}
           <li>
             <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}

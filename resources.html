@@ -34,6 +34,20 @@ layout: default
     </ul>
   </section>
 
+  <section id="resource-lists">
+    <h2>Additional resource lists</h2>
+    <ul>
+      {% for item in items %}
+        {% if item.type == 'resource-list' %}
+          <li>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
+            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+
   <hr>
   <h2>Support service workers</h2>
   <p>We maintain a directory of fundraisers for Chicago service workers.</p>
