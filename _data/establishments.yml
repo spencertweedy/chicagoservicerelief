@@ -2135,3 +2135,27 @@
 - title: Wherewithall
   url: https://www.gofundme.com/f/parachuteampwherewithall-employee-relief-fund
   type: restaurant
+- title: 'El Cid #2'
+  url: https://www.gofundme.com/f/el-cid-waitresses
+  type: restaurant
+- title: Music Health Alliance Grants and Resources
+  url: https://www.musichealthalliance.com/covid-19-resources/
+  type: resource
+- title: Facebook Small Business Grants
+  url: https://www.facebook.com/business/boost/grants
+  type: resource-business
+- title: Freelancer Co-op Emergency Fund
+  url: https://freelancecoop.org/emergencyfund/
+  type: resource
+- title: Freelancer Co-op Emergency Fund
+  url: https://freelancecoop.org/emergencyfund/
+  type: fund
+- title: Spotify COVID-19 Music Relief
+  url: https://covid19musicrelief.byspotify.com/en-us
+  type: resource
+- title: National Alliance on Mental Illness Resource Guide
+  url: https://www.nami.org/covid-19
+  type: resource
+- title: United Way Community Response and Recovery Fund
+  url: https://www.unitedway.org/recovery/covid19
+  type: fund
