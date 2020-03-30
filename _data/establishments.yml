@@ -1914,10 +1914,6 @@
 - title: Old Grounds Social
   url: 'https://www.gofundme.com/f/yyrrwp-employee-relief-fund'
   type: bar
-- title: Marisol at the MCA
-  url: >-
-    https://www.gofundme.com/manage/emergency-relief-for-staff-at-marisol-at-the-mca
-  type: restaurant
 - title: Maxwell Street Klezmer Band
   url: 'https://www.klezmermusicfoundation.org/'
   type: other
@@ -2162,3 +2158,27 @@
 - title: Musician Health Resource Financial Aid List
   url: https://musicianhealthresource.com/blogs/blog/financial-help-in-a-time-of-crisis
   type: resource-list
+- title: Big Hill
+  url: https://www.gofundme.com/f/big-hill-staff-fund
+  type: restaurant
+- title: Da Sorce
+  url: https://www.gofundme.com/f/da-sorce-staff-support-fund
+  type: store
+- title: Modern Grill
+  url: https://www.gofundme.com/f/help-modern-grill-survive-the-corona19-shutdown
+  type: restaurant
+- title: Easy Street Pizza and Beer Garden
+  url: https://www.gofundme.com/f/easy-street-staff-fundraising
+  type: restaurant
+- title: Fireside Restaurant
+  url: https://www.gofundme.com/f/fireside-staff-coronavirus-relief-fund
+  type: restaurant
+- title: Elske
+  url: https://www.gofundme.com/f/elske-employee-fund
+  type: restaurant
+- title: Stella’s Diner
+  url: https://www.gofundme.com/f/stella039s-diner-covid19-employee-fund
+  type: restaurant
+- title: Chicatolia
+  url: https://www.gofundme.com/f/covid19-relief-chicatolia-artisan-collective
+  type: store
