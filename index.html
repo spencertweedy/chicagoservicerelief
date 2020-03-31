@@ -56,7 +56,7 @@ layout: default
   <h2 id="stores-and-others">Support retail staff &amp; other service-providers</h2>
   <ul>
     {% for item in items %}
-      {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' and item.type != 'salon' and item.type != 'resource' and item.type != 'fund' and item.type != 'resource-business' %}
+      {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' and item.type != 'salon' and item.type != 'resource' and item.type != 'fund' and item.type != 'resource-business' and item.type != 'resource-list' %}
         <li>
           <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
           {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
