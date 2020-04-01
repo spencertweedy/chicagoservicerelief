@@ -961,8 +961,8 @@
 - title: Monsignor Murphy’s
   url: https://www.gofundme.com/f/monsignor-murphy039s-virtual-tip-jar
   type: bar
-- title: City of Chicago Health and Mental Health Resources
-  url: https://www.chicago.gov/city/en/sites/covid-19/home/resources.html#general-information
+- title: City of Chicago Mental Health Services
+  url: https://www.chicago.gov/city/en/depts/cdph/provdrs/health_services/svcs/mental-health-services.html
   type: resource
 - title: City of Chicago Food Assistance
   url: https://www.chicago.gov/city/en/sites/covid-19/home/resources.html#food-assistance
@@ -2185,3 +2185,27 @@
 - title: WestEnd
   url: https://www.gofundme.com/f/westend-staff-relief-fund
   type: bar
+- title: Blind Barber
+  url: https://www.gofundme.com/f/blind-barber-employee-emergency-fund
+  type: salon
+- title: Atmosphere Bar
+  url: https://www.gofundme.com/f/atmosphere-bar-staff-relief-fund
+  type: bar
+- title: One Fair Wage Emergency Fund
+  url: https://ofwemergencyfund.org/
+  type: fund
+- title: One Fair Wage Emergency Fund
+  url: https://ofwemergencyfund.org/
+  type: resource
+- title: Illinois COVID-19 Response Fund
+  url: https://www.ilcovidresponsefund.org/
+  type: fund
+- title: Arts for Illinois Relief Fund
+  url: https://artsforillinois.org/donate
+  type: fund
+- title: Arts for Illinois Relief Fund
+  url: https://3arts.org/artist-relief/
+  type: resource
+- title: Arts Work Fund
+  url: https://artsworkfund.org/
+  type: resource-business
