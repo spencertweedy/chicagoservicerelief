@@ -4,14 +4,14 @@ layout: default
 <header>
   <h1><span>Chicago</span> <br><span>Service</span> <br><span>Relief</span></h1>
 </header>
-<main>
+<main class="contained">
   {% assign items = site.data.establishments | sort_natural: "title" %}
   <section id="resources">
     <h2>Resources for individuals</h2>
-    <ul>
+    <ul class="item-list">
       {% for item in items %}
         {% if item.type == 'resource' %}
-          <li>
+          <li class="displayed">
             <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
           </li>
@@ -22,10 +22,10 @@ layout: default
 
   <section id="resources-business">
     <h2>Resources for businesses</h2>
-    <ul>
+    <ul class="item-list">
       {% for item in items %}
         {% if item.type == 'resource-business' %}
-          <li>
+          <li class="displayed">
             <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
           </li>
@@ -36,10 +36,10 @@ layout: default
 
   <section id="resource-lists">
     <h2>Additional resource lists</h2>
-    <ul>
+    <ul class="item-list">
       {% for item in items %}
         {% if item.type == 'resource-list' %}
-          <li>
+          <li class="displayed">
             <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
           </li>
