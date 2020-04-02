@@ -150,6 +150,12 @@ footer {
   font-size: 0.7em;
 }
 
+#item-grid {
+  column-count: 3;
+  column-gap: 2vw;
+  column-width: 200px;
+}
+
 /* ----------------
    Reusable classes
    ---------------- */
@@ -174,20 +180,19 @@ footer {
 .item-list {
   padding-left: 0;
   list-style-type: none;
+  margin: 0;
 }
 
 .item-list li {
   position: relative;
-}
-
-.item-list a {
-  text-decoration: none;
+  margin-left: 1.1em;
+  margin-bottom: 0.4em;
 }
 
 .item-list a:before {
   content: "\2736";
   position: absolute;
-  left: 0;
+  left: -1.1em;
   color: var(--chicago-red);
 }
 
