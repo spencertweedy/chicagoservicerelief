@@ -177,7 +177,7 @@ footer {
   color: var(--text-color-light);
 }
 
-#item-grid {
+#item-list-section {
   column-count: 4;
   column-gap: 2vw;
   column-width: 200px;
@@ -197,6 +197,12 @@ footer {
   position: relative;
   margin-left: 1.1em;
   margin-bottom: 0.4em;
+  display: none; /* Items are hidden by default to accommodate the filter function */
+}
+
+/* This class exists for the JS filtering function */
+.item-list li.displayed {
+  display: block;
 }
 
 .item-list a:before {
