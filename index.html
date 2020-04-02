@@ -9,22 +9,20 @@ layout: default
 <main>
   <section id="filter-controls">
     <nav>
-      <a href="#" class="active">Show All</a>
-      <a href="#">Bars &amp; Venues</a>
-      <a href="#">Restaurants</a>
-      <a href="#">Salons</a>
-      <a href="#">Stores</a>
-      <a href="#">General Funds</a>
-      <a href="#">Other Service Providers</a>
+      <a href="#" class="filter-button active" data-filter-name="all">Show All</a>
+      <a href="#" class="filter-button" data-filter-name="bars">Bars &amp; Venues</a>
+      <a href="#" class="filter-button" data-filter-name="restaurants">Restaurants</a>
+      <a href="#" class="filter-button" data-filter-name="others">Stores &amp; Others</a>
+      <a href="#" class="filter-button" data-filter-name="funds">General Funds</a>
     </nav>
     <a href="#suggestions">+ Suggest an addition</a>
   </section>
 
-  <section id="item-grid">
+  <section id="item-list-section">
     {% assign items = site.data.establishments | sort_natural: "title" %}
     <ul class="item-list">
       {% for item in items %}
-        <li>
+        <li class="item displayed" data-item-type="{{ item.type }}">
           <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
           {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
         </li>
