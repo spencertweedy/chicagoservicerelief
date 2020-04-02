@@ -8,14 +8,12 @@ layout: default
 </header>
 <main>
   <nav>
-    <a hef="#">Bars</a>
+    <a hef="#">Bars &amp; Venues</a>
     <a hef="#">Restaurants</a>
-    <a hef="#">Venues</a>
-    <a hef="#">Theaters</a>
     <a hef="#">Salons</a>
     <a hef="#">Stores</a>
-    <a hef="#">Restaurants</a>
-    <a hef="#">Florists</a>
+    <a hef="#">General funds</a>
+    <a hef="#">Other Service Providers</a>
     <a href="#suggestions" class="button">+ Suggest an addition</a>
   </nav>
 
@@ -24,10 +22,8 @@ layout: default
     <ul class="item-list" data-shown-types="">
       {% for item in items %}
         <li>
-          <a href="{{ item.url }}" target="_blank">
-            {{ item.title }}
-            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-          </a>
+          <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
         </li>
       {% endfor %}
     </ul>
