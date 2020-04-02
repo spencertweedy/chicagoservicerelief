@@ -151,7 +151,7 @@ footer {
 }
 
 #item-grid {
-  column-count: 3;
+  column-count: 4;
   column-gap: 2vw;
   column-width: 200px;
 }
