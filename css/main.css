@@ -70,7 +70,6 @@ textarea {
   --text-color-light: #fff;
   --chicago-red: rgb(220,70,71);
   --chicago-blue: rgb(90,190,236);
-  --item-color: hsl(0, 0%, 93%);
 }
 
 html {
@@ -175,35 +174,21 @@ footer {
 .item-list {
   padding-left: 0;
   list-style-type: none;
-  margin: -1vw -1vw 1.4rem -1vw; /* To compensate for child margins */
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .item-list li {
   position: relative;
-  background-color: var(--item-color);
-  flex-basis: calc(25% - 2vw); /* So that there are four columns by default; also accommodates margin */
-  flex-grow: 1; /* So that items grow to fill parent when the would-be width is less than min-width… */
-  min-width: 180px; /* Arbitrary quantnity to maintain legibility */
-  margin: 1vw;
-  box-sizing: border-box; /* So that padding is incorporated in width declaration */
-  border-radius: 0.25rem;
-  word-break: break-word; /* To prevent overflow */
-  border: 0.125rem solid hsl(0, 0%, 90%);
-  transition: 0.08s transform;
-}
-
-.item-list li:hover {
-  transform: scale(1.03);
 }
 
 .item-list a {
   text-decoration: none;
-  display: block;
-  height: 100%; /* So that the link hit zone grows with parent height when flexbox equalizes a row's height */
-  padding: 1em; /* Declaring here instead of on `li` so that link hit zone grows too */
-  box-sizing: border-box; /* To accommodate padding */
+}
+
+.item-list a:before {
+  content: "\2736";
+  position: absolute;
+  left: 0;
+  color: var(--chicago-red);
 }
 
 .item-note {
