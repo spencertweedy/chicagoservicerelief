@@ -150,6 +150,33 @@ footer {
   font-size: 0.7em;
 }
 
+#filter-controls nav {
+  background: hsl(0, 0%, 93%);
+  border-radius: 2em;
+  display: inline-block;
+}
+
+#filter-controls nav a {
+  display: inline-block;
+  text-decoration: none;
+  height: 2.6em;
+  line-height: 2.6em;
+  padding: 0 0.8em;
+  font-size: 0.9em;
+  border-radius: 2em;
+  margin: 0;
+  transition: 0.08s background;
+}
+
+#filter-controls nav a:hover {
+  background: hsl(0, 0%, 84%);
+}
+
+#filter-controls nav a.active {
+  background-color: var(--chicago-blue);
+  color: var(--text-color-light);
+}
+
 #item-grid {
   column-count: 4;
   column-gap: 2vw;
@@ -159,23 +186,6 @@ footer {
 /* ----------------
    Reusable classes
    ---------------- */
-
-.button {
-  display: inline-block;
-  background: hsl(0, 0%, 90%);
-  text-decoration: none;
-  height: 2em;
-  line-height: 2.1em;
-  padding: 0 0.8em;
-  border-radius: 2em;
-  border: 0.15em solid hsl(0, 0%, 80%);
-  font-size: 0.9em;
-  transition: 0.08s background;
-}
-
-.button:hover {
-  background: hsl(0, 0%, 85%);
-}
 
 .item-list {
   padding-left: 0;
