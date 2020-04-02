@@ -18,17 +18,20 @@ layout: default
     <a hef="#">Florists</a>
     <a href="#suggestions" class="button">+ Suggest an addition</a>
   </nav>
-  {% assign items = site.data.establishments | sort_natural: "title" %}
-  <ul class="item-list" data-shown-types="">
-    {% for item in items %}
-      <li>
-        <a href="{{ item.url }}" target="_blank">
-          {{ item.title }}
-          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+
+  <section id="item-grid">
+    {% assign items = site.data.establishments | sort_natural: "title" %}
+    <ul class="item-list" data-shown-types="">
+      {% for item in items %}
+        <li>
+          <a href="{{ item.url }}" target="_blank">
+            {{ item.title }}
+            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 
   <section id="suggestions">
     <hr>
