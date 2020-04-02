@@ -16,109 +16,14 @@ layout: default
 </header>
 <main>
   {% assign items = site.data.establishments | sort_natural: "title" %}
-
-  <h2 id="bars-and-venues">Support bar &amp; venue staff</h2>
   <ul>
     {% for item in items %}
-      {% if item.type contains 'bar' or item.type contains 'venue' or item.type contains 'theater' %}
-        <li>
-          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
-          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-        </li>
-      {% endif %}
+      <li>
+        <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
+        {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+      </li>
     {% endfor %}
   </ul>
-
-  <h2 id="restaurants">Support restaurant staff</h2>
-  <ul>
-    {% for item in items %}
-      {% if item.type contains 'restaurant' %}
-        <li>
-          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
-          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <h2 id="salons">Support hair salon staff</h2>
-  <ul>
-    {% for item in items %}
-      {% if item.type == 'salon' %}
-        <li>
-          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
-          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <h2 id="stores-and-others">Support retail staff &amp; other service-providers</h2>
-  <ul>
-    {% for item in items %}
-      {% if item.type != 'bar' and item.type != 'venue' and item.type != 'restaurant' and item.type != 'theater' and item.type != 'salon' and item.type != 'resource' and item.type != 'fund' and item.type != 'resource-business' and item.type != 'resource-list' %}
-        <li>
-          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
-          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <h2 id="general-funds">Support general funds</h2>
-  <ul>
-    {% for item in items %}
-      {% if item.type == 'fund' %}
-        <li>
-          <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
-          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <section id="resources">
-    <hr>
-    <h2>Resources for individuals</h2>
-    <ul>
-      {% for item in items %}
-        {% if item.type == 'resource' %}
-          <li>
-            <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
-            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
-
-  <section id="resources-business">
-    <h2>Resources for businesses</h2>
-    <ul>
-      {% for item in items %}
-        {% if item.type == 'resource-business' %}
-          <li>
-            <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
-            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
-
-  <section id="resource-lists">
-    <h2>Additional resource lists</h2>
-    <ul>
-      {% for item in items %}
-        {% if item.type == 'resource-list' %}
-          <li>
-            <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
-            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
 
   <section id="suggestions">
     <hr>
