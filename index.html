@@ -7,19 +7,22 @@ layout: default
   <p><strong>Not sure where to start?</strong> <a href="https://twitter.com/kelly_virginia">@kelly_virginia</a> maintains <a href="https://docs.google.com/spreadsheets/d/1FfwL4ZC7omZ177rBI4WPJy_kqcMZoLgFjYg5Ek0_x98/edit?usp=sharing">this spreadsheet</a> showing which fundraisers are furthest from their goals.</p>
 </header>
 <main>
-  <nav>
-    <a hef="#">Bars &amp; Venues</a>
-    <a hef="#">Restaurants</a>
-    <a hef="#">Salons</a>
-    <a hef="#">Stores</a>
-    <a hef="#">General funds</a>
-    <a hef="#">Other Service Providers</a>
-    <a href="#suggestions" class="button">+ Suggest an addition</a>
-  </nav>
+  <section id="filter-controls">
+    <nav>
+      <a href="#" class="active">Show All</a>
+      <a href="#">Bars &amp; Venues</a>
+      <a href="#">Restaurants</a>
+      <a href="#">Salons</a>
+      <a href="#">Stores</a>
+      <a href="#">General Funds</a>
+      <a href="#">Other Service Providers</a>
+    </nav>
+    <a href="#suggestions">+ Suggest an addition</a>
+  </section>
 
   <section id="item-grid">
     {% assign items = site.data.establishments | sort_natural: "title" %}
-    <ul class="item-list" data-shown-types="">
+    <ul class="item-list">
       {% for item in items %}
         <li>
           <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
