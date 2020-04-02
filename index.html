@@ -5,33 +5,35 @@ layout: default
   <h1><span>Chicago</span> <br><span>Service</span> <br><span>Relief</span></h1>
   <p>A directory of fundraisers for Chicago bars, venues, restaurants, and other service-based businesses that can use our help during the state-mandated shutdown. A work-in-progress.</p>
   <p><strong>Not sure where to start?</strong> <a href="https://twitter.com/kelly_virginia">@kelly_virginia</a> maintains <a href="https://docs.google.com/spreadsheets/d/1FfwL4ZC7omZ177rBI4WPJy_kqcMZoLgFjYg5Ek0_x98/edit?usp=sharing">this spreadsheet</a> showing which fundraisers are furthest from their goals.</p>
+  <p><strong>See also:</strong> <a href="/resources">resources for individuals and businesses</a>.</p>
 </header>
 <main>
-  <section id="filter-controls">
-    <nav>
-      <a href="#" class="filter-button active" data-filter-name="all">Show All</a>
-      <a href="#" class="filter-button" data-filter-name="bars">Bars &amp; Venues</a>
-      <a href="#" class="filter-button" data-filter-name="restaurants">Restaurants</a>
-      <a href="#" class="filter-button" data-filter-name="others">Stores &amp; Others</a>
-      <a href="#" class="filter-button" data-filter-name="funds">General Funds</a>
-    </nav>
-    <a href="#suggestions">+ Suggest an addition</a>
+  <section class="list-container">
+    <section id="filter-controls">
+      <nav>
+        <a href="#" class="filter-button active" data-filter-name="all">Show All</a>
+        <a href="#" class="filter-button" data-filter-name="bars">Bars &amp; Venues</a>
+        <a href="#" class="filter-button" data-filter-name="restaurants">Restaurants</a>
+        <a href="#" class="filter-button" data-filter-name="others">Stores &amp; Others</a>
+        <a href="#" class="filter-button" data-filter-name="funds">General Funds</a>
+      </nav>
+      <a href="#suggestions">+ Suggest an addition</a>
+    </section>
+
+    <section id="item-list-section">
+      {% assign items = site.data.establishments | sort_natural: "title" %}
+      <ul class="item-list">
+        {% for item in items %}
+          <li class="item displayed" data-item-type="{{ item.type }}">
+            <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
   </section>
 
-  <section id="item-list-section">
-    {% assign items = site.data.establishments | sort_natural: "title" %}
-    <ul class="item-list">
-      {% for item in items %}
-        <li class="item displayed" data-item-type="{{ item.type }}">
-          <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
-          {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-
-  <section id="suggestions">
-    <hr>
+  <section id="suggestions" class="contained">
     <h2>Suggestions</h2>
     <p>To suggest an establishment that’s not already on the list, please <a href="mailto:{{ site.email }}?subject=Chicago Service Relief">email its fundraising page link to me</a>.</p>
   </section>
