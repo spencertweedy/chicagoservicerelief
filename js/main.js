@@ -1,47 +1,53 @@
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
+// Credit to W3Schools: https://www.w3schools.com/howto/howto_js_filter_elements.asp
 
-// Show filtered elements
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
+// Define variables
+var items = document.querySelectorAll(".item");
+var filterButtons = document.querySelectorAll(".filter-button");
+var allowedTypes = [];
+var itemType = "";
+
+// Start with the 'all' filter
+// filterItems('all');
+
+// Show items that pass the filter, hide those that don't
+function filterItems(currentFilter) {
+  // Fill allowedTypes array based on the current filter
+  if (currentFilter == 'all') {
+    allowedTypes = [];
+  } else if (currentFilter == 'bars') {
+    allowedTypes = ['bar','venue','theater'];
+  } else if (currentFilter == 'restaurants') {
+    allowedTypes = ['restaurant'];
+  } else if (currentFilter == 'others') {
+    allowedTypes = ['salon','other'];
+  } else if (currentFilter == 'funds') {
+    allowedTypes = ['fund'];
+  }
+
+  // Loop through the list items and act on them based on allowedTypes
+  for (item of items) {
+    // Fill itemType with current item's data-item-type attribute
+    itemType = item.getAttribute("data-item-type");
+
+    // Give the item the 'displayed' CSS class only if the current filter is 'all'
+    // or if the item's itemType is included in the allowedTypes array
+    if (currentFilter == 'all') {
+      item.classList.add("displayed");
+    } else if (allowedTypes.includes(itemType)) {
+      item.classList.add("displayed");
+    } else {
+      item.classList.remove("displayed");
     }
   }
 }
 
-// Hide elements that are not selected
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
+// Bind filter buttons to the filter function
+// Thanks https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/
+filterButtons.forEach(filterButton => {
+  // Get the filter button's filter data attribute
+  var filterName = filterButton.getAttribute("data-filter-name");
 
-// Add active class to the current control button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
+  filterButton.addEventListener('click', function() {
+    filterItems(filterName);
   });
-}
+})
