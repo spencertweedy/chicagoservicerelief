@@ -2209,3 +2209,22 @@
 - title: Arts Work Fund
   url: https://artsworkfund.org/
   type: resource-business
+- title: Svea
+  url: https://www.gofundme.com/f/svea-restaurant
+  type: restaurant
+- title: Pony Inn, The
+  url: https://www.gofundme.com/f/the-pony-inn-staff-relief-fund
+  type: bar
+- title: Lottie’s Pub
+  url: https://www.gofundme.com/f/lottie039s-gotipme-fund
+  type: bar
+- title: ServiceIndustry.tips
+  url: https://serviceindustry.tips/en/il/chicago/
+  type: fund
+  note: Directly tip service workers.
+- title: ServiceIndustry.tips
+  url: https://serviceindustry.tips/en/il/chicago/
+  type: resource
+- title: Shop In Place Chicago
+  url: https://shopinplacechi.com/
+  type: other
