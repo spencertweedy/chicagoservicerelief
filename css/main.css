@@ -70,6 +70,7 @@ textarea {
   --text-color-light: #fff;
   --chicago-red: rgb(220,70,71);
   --chicago-blue: rgb(90,190,236);
+  --item-color: hsl(0, 0%, 93%);
 }
 
 html {
