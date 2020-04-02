@@ -136,24 +136,39 @@ header, footer {
 
 header, footer, .contained {
   max-width: 640px;
+  margin: 0 auto;
 }
 
 header {
-  margin: calc(4vh + 3vw) auto;
+  margin: calc(4vh + 3vw) auto calc((4vh + 3vw) / 2);
 }
 
 main {
-  margin: 0 auto 2vw;
-  padding: 0 4vw;
+  margin: 0 4vw 2vw;
+  padding: calc(1vh + 2vw);
+  background: hsl(0, 0%, 95%);
+  border-radius: 0.4rem;
 }
 
 footer {
-  margin-bottom: 12vh;
+  margin-bottom: calc(4vh + 2vw);
   font-size: 0.7em;
 }
 
 #filter-controls {
-  margin-bottom: 2vw;
+  margin-bottom: calc((1vh + 2vw) - 0.5em);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#filter-controls a {
+  display: inline-block;
+  text-decoration: none;
+  height: 2.3em;
+  line-height: 2.3em;
+  padding: 0 0.8em;
+  font-size: 0.9em;
 }
 
 #filter-controls nav {
@@ -161,21 +176,14 @@ footer {
 }
 
 #filter-controls nav a {
-  background: hsl(0, 0%, 93%);
+  background: hsl(0, 0%, 85%);
   border-radius: 1.15em;
-  display: inline-block;
-  text-decoration: none;
-  height: 2.3em;
-  line-height: 2.3em;
-  padding: 0 0.8em;
-  font-size: 0.9em;
-  border-radius: 2em;
   margin: 0 0 0.5em;
   transition: 0.1s all;
 }
 
 #filter-controls nav a:hover {
-  background: hsl(0, 0%, 84%);
+  background: hsl(0, 0%, 78%);
 }
 
 #filter-controls nav a.active {
@@ -210,6 +218,10 @@ footer {
 /* This class exists for the JS filtering function */
 .item-list li.displayed {
   display: block;
+}
+
+.item-list a {
+  display: inline-block; /* To prevent awkward column breaks */
 }
 
 .item-list a:before {
