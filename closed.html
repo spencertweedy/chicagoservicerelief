@@ -10,7 +10,7 @@ layout: default
     <h2>Closures</h2>
     <ul class="item-list">
       {% for item in items %}
-        {% if item.closed == true %}
+        {% if item.closed %}
           <li class="displayed">
             <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
