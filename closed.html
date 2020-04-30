@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<header>
+  <h1><span>Chicago</span> <br><span>Service</span> <br><span>Relief</span></h1>
+</header>
+<main class="contained">
+  {% assign items = site.data.establishments | sort_natural: "title" %}
+  <section id="resources">
+    <h2>Closures</h2>
+    <ul class="item-list">
+      {% for item in items %}
+        {% if item.closed == true %}
+          <li class="displayed">
+            <a href="{{ item.url }}" target="_blank">{{ item.title }} &rarr;</a>
+            {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <hr>
+  <h2>Support service workers</h2>
+  <p><a href="/">View our directory</a> of fundraisers for Chicago service businesses.</p>
+
+  <hr>
+  <h2>Resources</h2>
+  <p>We also maintain a directory of <a href="{% link resources.html %}">resources for Chicago businesses and individuals</a>.</p>
+
+  <section id="suggestions">
+    <hr>
+    <h2>Suggestions</h2>
+    <p>To let us know about a fundraiser, resource, or closure that’s not already on this site, please <a href="mailto:{{ site.email }}?subject=Chicago Service Relief">email us</a>.</p>
+  </section>
+</main>
+<footer>
+  <p>Project by <a href="https://spencertweedy.com/">Spencer Tweedy</a>. Last updated {{ site.time | date: "%m/%d/%Y" }}.</p>
+</footer>
