@@ -27,6 +27,7 @@ layout: default
           <li class="item displayed" data-item-type="{{ item.type }}">
             <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
             {% if item.note %}<span class="item-note">{{ item.note }}</span>{% endif %}
+            {% if item.closed %}<span class="item-note closed">{{ item.closed }}</span>{% endif %}
           </li>
         {% endfor %}
       </ul>
