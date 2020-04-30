@@ -189,7 +189,7 @@
 - title: Crown Liquors
   url: https://www.gofundme.com/f/crown-liquors-staff-needs-your-help
   type: bar
-  closed: true
+  closed: Closed but still fundraising for staff.
 - title: High Dive
   url: https://www.gofundme.com/f/high-dive-staff-needs-your-help
   type: bar
@@ -1017,7 +1017,7 @@
 - title: Toast
   url: https://www.gofundme.com/f/toast-staff-relief-fund
   type: restaurant
-  closed: true
+  closed: Closed but still fundraising for staff.
 - title: MusiCares Relief Fund
   url: https://www.grammy.com/musicares/get-help/musicares-coronavirus-relief-fund
   type: resource
@@ -1462,6 +1462,7 @@
 - title: Vanille Patisserie
   url: 'https://www.gofundme.com/f/the-ultimate-tip-jar'
   type: restaurant
+  closed: Closed in Hyde Park but still fundraising for staff.
 - title: Mindy’s Hot Chocolate Bakery (Revival)
   url: 'https://www.gofundme.com/f/udqd3-revival-food-hall-employee-relief'
   type: restaurant
@@ -2366,11 +2367,7 @@
   url: https://www.frontlinefoods.org/chicago/
   type: fund
   note: Help feed medical workers
-- title: Vanille Patisserie (Hyde Park)
-  url: https://www.vanillepatisserie.com/Gift-Cards/
-  type: restaurant
-  closed: true
 - title: Argus Brewery
   url: https://www.argusbrewery.com/news-events/
   type: bar
-  closed: true
+  closed: Closed.
